@@ -7,7 +7,7 @@ let win
 
 function createWindow () {
 
-  pxt.mainCli("node_modules/pxt-microbit")
+  pxt.mainCli("node_modules/pxt-microbit", ["serve", "-no-browser"])
 
   // Create the browser window.
   win = new BrowserWindow({width: 800, height: 600})
