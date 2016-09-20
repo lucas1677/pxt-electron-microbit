@@ -4,9 +4,19 @@ const path = require('path')
 
 let win
 
+const cliPath = path.join(process.cwd(), "node_modules/pxt-microbit") 
+
+function startServerAndCreateWindow() {
+  pxt.mainCli(cliPath, ["serve", "-no-browser"])
+  createWindow()
+}
+
 function createWindow () {
-  pxt.mainCli(path.join(process.cwd(), "node_modules/pxt-microbit"), ["serve", "-no-browser"])
-  win = new BrowserWindow({width: 800, height: 600})
+  win = new BrowserWindow({
+    width: 800,
+    height: 600,
+    title: "code the micro:bit"
+  })
   Menu.setApplicationMenu(null)
   win.loadURL(`file://${__dirname}/index.html#local_token=${pxt.globalConfig.localToken}`)
   win.on('closed', () => {
@@ -14,7 +24,7 @@ function createWindow () {
   })
 }
 
-app.on('ready', createWindow)
+app.on('ready', startServerAndCreateWindow)
 
 app.on('window-all-closed', () => {
   if (process.platform !== 'darwin') {

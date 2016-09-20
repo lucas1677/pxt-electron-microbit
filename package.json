@@ -1,5 +1,10 @@
 {
-  "name"    : "your-app",
-  "version" : "0.1.0",
-  "main"    : "main.js"
+  "name"    : "code-the-microbit",
+  "version" : "1.0.0",
+  "description": "Blocks / Javascript editor",
+  "author": "Microsoft",
+  "main"    : "main.js",
+  "scripts": {
+      "start": "node_modules/.bin/electron ."
+  }
 }
