@@ -1,39 +1,53 @@
-const {app, BrowserWindow, Menu} = require('electron');
+const {app, BrowserWindow, Menu, dialog} = require('electron');
 const pxt = require('pxt-core');
 const path = require('path');
 
-let win;
+let mainWindow;
+const isWindows = process.platform === 'win32';
 
-const cliPath = path.join(process.cwd(), "node_modules/pxt-microbit");
+const cliPath = path.join(__dirname, "node_modules/pxt-microbit");
 
-function startServerAndCreateWindow() {
-  pxt.mainCli(cliPath, ["serve", "-no-browser"]);
-  createWindow();
-}
+pxt.mainCli(cliPath, ["serve", "-no-browser"]);
 
-function createWindow() {
-  win = new BrowserWindow({
-    width: 800,
-    height: 600,
-    title: "code the micro:bit"
+app.on('ready', () => {
+
+  mainWindow = new BrowserWindow({
+    show: false,
+    webPreferences: {
+      nodeIntegrationInWorker: true
+    }
   });
-  Menu.setApplicationMenu(null);
-  win.loadURL(`file://${__dirname}/index.html#local_token=${pxt.globalConfig.localToken}`);
-  win.on('closed', () => {
-    win = null
-  })
-}
 
-app.on('ready', startServerAndCreateWindow);
+  mainWindow.loadURL(path.join('file://', __dirname, `index.html#local_token=${pxt.globalConfig.localToken}`));
+  mainWindow.on('ready-to-show', () => {
+    mainWindow.show();
+  });
 
-app.on('window-all-closed', () => {
-  if (process.platform !== 'darwin') {
-    app.quit()
-  }
-});
-
-app.on('activate', () => {
-  if (win === null) {
-    createWindow()
-  }
+  const menu = Menu.buildFromTemplate([
+    {
+      label: isWindows ? 'File' : app.getName(),
+      submenu: [
+        {
+          label: isWindows ? 'Exit' : `Quit ${app.getName()}`,
+          accelerator: isWindows ? null : 'CmdOrCtrl+Q',
+          click() {
+            app.quit();
+          }
+        },
+        {
+          label: 'Say Hello',
+          click() {
+            dialog.showMessageBox(mainWindow, {
+              type: 'info',
+              message: 'Hello',
+              detail: 'Just a friendly meow.',
+              buttons: ['Meow', 'Close'], //can pass multiple buttons in here and then get the index of the clicked on in the callback
+              defaultId: 0
+            });
+          }
+        }
+      ]
+    },
+  ]);
+  Menu.setApplicationMenu(menu);
 });
