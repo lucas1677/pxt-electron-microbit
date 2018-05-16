@@ -1,14 +1,22 @@
 {
-  "name"    : "code-the-microbit",
-  "version" : "1.0.0",
+  "name": "magibit-makecode",
+  "productName": "Magibit Makecode",
+  "version": "1.0.0",
   "description": "Blocks / Javascript editor",
-  "author": "Microsoft",
-  "main"    : "main.js",
+  "author": "lucas shao (lucas.shao@foxmail.com)",
+  "main": "main.js",
   "scripts": {
-      "start": "node_modules/.bin/electron ."
+    "start": "node_modules/.bin/electron ./main.js",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "dependencies": {
+    "pxt-microbit": "*",
+    "pxt-core": "*"
   },
   "devDependencies": {
-      "electron": "*",
-      "pxt-microbit": "*"
-  }
+    "electron": "*",
+    "electron-builder": "*"
+  },
+  "license": "MIT"
 }
