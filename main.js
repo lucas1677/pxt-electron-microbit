@@ -1,17 +1,23 @@
 const {app, BrowserWindow, Menu, dialog} = require('electron');
 const pxt = require('pxt-core');
 const path = require('path');
+const Thenjs = require('thenjs');
 
 let mainWindow;
 const isWindows = process.platform === 'win32';
 
-const cliPath = path.join(__dirname, "node_modules/pxt-microbit");
+function main() {
+  const cliPath = path.join(__dirname, "node_modules/pxt-microbit");
 
-pxt.mainCli(cliPath, ["serve", "-no-browser"]);
+  pxt.mainCli(cliPath, ["serve", "-no-browser"]);
+}
+
+Thenjs(main());
 
 app.on('ready', () => {
 
   mainWindow = new BrowserWindow({
+    title: "Magibit micro:bit",
     show: false,
     webPreferences: {
       nodeIntegrationInWorker: true

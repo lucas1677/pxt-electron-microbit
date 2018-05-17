@@ -4,6 +4,9 @@ productName: Magibit Makecode
 
 asar: false
 
+asarUnpack:
+  - node_modules/
+
 directories:
   buildResources: dist-assets/
   output: dist/

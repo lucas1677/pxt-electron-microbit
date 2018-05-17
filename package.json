@@ -11,8 +11,9 @@
     "dist": "electron-builder"
   },
   "dependencies": {
+    "pxt-core": "*",
     "pxt-microbit": "*",
-    "pxt-core": "*"
+    "thenjs": "*"
   },
   "devDependencies": {
     "electron": "*",
