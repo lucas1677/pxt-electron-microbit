@@ -8,7 +8,10 @@
   "scripts": {
     "start": "node_modules/.bin/electron ./main.js",
     "pack": "electron-builder --dir",
-    "dist": "electron-builder"
+    "build:all": "electron-builder -mwl",
+    "build:mac": "electron-builder --mac",
+    "build:win": "electron-builder --win",
+    "build:linux": "electron-builder --linux"
   },
   "dependencies": {
     "pxt-core": "*",

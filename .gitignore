@@ -3,3 +3,4 @@ node_modules
 projects
 dist
 build
+yarn-error.log
