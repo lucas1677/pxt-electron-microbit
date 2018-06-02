@@ -27,6 +27,9 @@ Thenjs(main()).then(function () {
         mainWindow.on("ready-to-show", function () {
             mainWindow.show();
         });
+        mainWindow.on("closed", function () {
+            mainWindow = null;
+        });
         var menu = Menu.buildFromTemplate([
             {
                 label: isWindows ? "File" : app.getName(),

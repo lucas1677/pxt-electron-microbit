@@ -33,6 +33,10 @@ Thenjs(main()).then(function () {
       mainWindow.show();
     });
 
+    mainWindow.on("closed", () => {
+      mainWindow = null;
+    });
+
     const menu = Menu.buildFromTemplate([
       {
         label: isWindows ? "File" : app.getName(),
