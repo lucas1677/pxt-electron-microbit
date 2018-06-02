@@ -4,10 +4,12 @@
   "version": "1.0.0",
   "description": "Blocks / Javascript editor",
   "author": "lucas shao (lucas.shao@foxmail.com)",
+  "email": "lucas.shao@foxmail.com",
   "main": "main.js",
   "scripts": {
     "start": "node_modules/.bin/electron ./main.js",
     "pack": "electron-builder --dir",
+    "dist": "electron-builder -mw",
     "build:all": "electron-builder -mwl",
     "build:mac": "electron-builder --mac",
     "build:win": "electron-builder --win",
