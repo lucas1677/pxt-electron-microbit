@@ -16,9 +16,7 @@
     "build:linux": "electron-builder --linux"
   },
   "dependencies": {
-    "pxt-core": "*",
-    "pxt-microbit": "*",
-    "thenjs": "*"
+    "http-server": "^0.11.1"
   },
   "devDependencies": {
     "electron": "*",
