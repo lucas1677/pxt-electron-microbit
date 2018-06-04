@@ -1,0 +1,3508 @@
+{
+  "accentColor": "#5C005C",
+  "logoUrl": "https://microbit.org/code/",
+  "logo": "docs/static/logo.portrait.white.svg",
+  "docsLogo": "docs/static/logo.square.white.svg",
+  "portraitLogo": "docs/static/logo.square.white.svg",
+  "footerLogo": "docs/static/logo.portrait.black.svg",
+  "cardLogo": "docs/static/icons/apple-touch-icon.png",
+  "appLogo": "docs/static/icons/apple-touch-icon.png",
+  "organization": "Microsoft MakeCode",
+  "organizationUrl": "https://makecode.com/",
+  "organizationLogo": "docs/static/Microsoft-logo_rgb_c-gray-square.png",
+  "organizationWideLogo": "docs/static/Microsoft-logo_rgb_c-white.png",
+  "homeScreenHero": "docs/static/hero.png",
+  "homeUrl": "https://makecode.microbit.org/",
+  "embedUrl": "https://makecode.microbit.org/",
+  "shareUrl": "https://makecode.microbit.org/",
+  "privacyUrl": "https://makecode.com/privacy",
+  "termsOfUseUrl": "https://makecode.com/termsofuse",
+  "githubUrl": "https://github.com/Microsoft/pxt-microbit",
+  "boardName": "micro:bit",
+  "driveDisplayName": "MICROBIT",
+  "feedbackUrl": "https://www.research.net/r/MCmicro",
+  "appStoreID": "1092687276",
+  "mobileSafariDownloadProtocol": "microbithex://?data",
+  "extendEditor": true,
+  "extendFieldEditors": true,
+  "docMenu": [
+    {
+      "name": "Support",
+      "path": "https://support.microbit.org/"
+    },
+    {
+      "name": "Reference",
+      "path": "/reference"
+    },
+    {
+      "name": "Blocks",
+      "path": "/blocks"
+    },
+    {
+      "name": "JavaScript",
+      "path": "/javascript"
+    },
+    {
+      "name": "Hardware",
+      "path": "/device"
+    },
+    {
+      "name": "Buy",
+      "path": "https://microbit.org/resellers"
+    }
+  ],
+  "hasReferenceDocs": true,
+  "usbDocs": "/device/usb",
+  "usbHelp": [
+    {
+      "name": "connection",
+      "os": "*",
+      "browser": "*",
+      "path": "/static/mb/device/usb-generic.jpg"
+    },
+    {
+      "name": "connection",
+      "os": "mac",
+      "browser": "*",
+      "path": "/static/mb/device/usb-mac.jpg"
+    },
+    {
+      "name": "save",
+      "os": "windows",
+      "browser": "firefox",
+      "path": "/static/mb/device/usb-windows-firefox-1.png"
+    },
+    {
+      "name": "save",
+      "os": "mac",
+      "browser": "firefox",
+      "path": "/static/mb/device/usb-osx-firefox-1.jpg"
+    },
+    {
+      "name": "save",
+      "os": "mac",
+      "browser": "chrome",
+      "path": "/static/mb/device/usb-osx-chrome.png"
+    },
+    {
+      "name": "save",
+      "os": "windows",
+      "browser": "edge",
+      "path": "/static/mb/device/usb-windows-edge-1.png"
+    },
+    {
+      "name": "save",
+      "os": "windows",
+      "browser": "ie",
+      "path": "/static/mb/device/usb-windows-ie11-1.png"
+    },
+    {
+      "name": "save",
+      "os": "windows",
+      "browser": "chrome",
+      "path": "/static/mb/device/usb-windows-chrome.png"
+    },
+    {
+      "name": "copy",
+      "os": "mac",
+      "browser": "*",
+      "path": "/static/mb/device/usb-osx-dnd.png"
+    },
+    {
+      "name": "copy",
+      "os": "windows",
+      "browser": "*",
+      "path": "/static/mb/device/usb-windows-sendto.jpg"
+    }
+  ],
+  "invertedMenu": true,
+  "coloredToolbox": true,
+  "monacoToolbox": true,
+  "hasAudio": true,
+  "blocklyOptions": {
+    "grid": {
+      "spacing": 45,
+      "length": 7,
+      "colour": "rgba(189, 195, 199, 0.30)",
+      "snap": false
+    }
+  },
+  "highContrast": true,
+  "greenScreen": true,
+  "selectLanguage": true,
+  "availableLocales": [
+    "en",
+    "ar",
+    "cs",
+    "da",
+    "de",
+    "el",
+    "es-ES",
+    "fi",
+    "fr",
+    "hu",
+    "is",
+    "it",
+    "ja",
+    "ko",
+    "nl",
+    "no",
+    "pt-BR",
+    "pt-PT",
+    "ru",
+    "si-LK",
+    "sv-SE",
+    "tr",
+    "uk",
+    "zh-CN",
+    "zh-TW"
+  ],
+  "monacoColors": {
+    "editor.background": "#ecf0f1"
+  },
+  "TOC": [
+    {
+      "name": "About",
+      "subitems": [],
+      "path": "/about",
+      "nextName": "FAQ",
+      "nextPath": "/faq"
+    },
+    {
+      "name": "FAQ",
+      "subitems": [],
+      "path": "/faq",
+      "prevName": "About",
+      "prevPath": "/about",
+      "nextName": "Support",
+      "nextPath": "https://support.microbit.org/"
+    },
+    {
+      "name": "Support",
+      "subitems": [],
+      "path": "https://support.microbit.org/",
+      "prevName": "FAQ",
+      "prevPath": "/faq",
+      "nextName": "Projects",
+      "nextPath": "/projects"
+    },
+    {
+      "name": "Projects",
+      "subitems": [
+        {
+          "name": "Flashing heart",
+          "subitems": [],
+          "path": "/projects/flashing-heart",
+          "prevName": "Projects",
+          "prevPath": "/projects",
+          "nextName": "Smiley buttons",
+          "nextPath": "/projects/smiley-buttons"
+        },
+        {
+          "name": "Smiley buttons",
+          "subitems": [],
+          "path": "/projects/smiley-buttons",
+          "prevName": "Flashing heart",
+          "prevPath": "/projects/flashing-heart",
+          "nextName": "Love meter",
+          "nextPath": "/projects/love-meter"
+        },
+        {
+          "name": "Love meter",
+          "subitems": [],
+          "path": "/projects/love-meter",
+          "prevName": "Smiley buttons",
+          "prevPath": "/projects/smiley-buttons",
+          "nextName": "Rock paper scissors",
+          "nextPath": "/projects/rock-paper-scissors"
+        },
+        {
+          "name": "Rock paper scissors",
+          "subitems": [],
+          "path": "/projects/rock-paper-scissors",
+          "prevName": "Love meter",
+          "prevPath": "/projects/love-meter",
+          "nextName": "Magic button trick",
+          "nextPath": "/projects/magic-button-trick"
+        },
+        {
+          "name": "Magic button trick",
+          "subitems": [],
+          "path": "/projects/magic-button-trick",
+          "prevName": "Rock paper scissors",
+          "prevPath": "/projects/rock-paper-scissors",
+          "nextName": "Coin Flipper",
+          "nextPath": "/projects/coin-flipper"
+        },
+        {
+          "name": "Coin Flipper",
+          "subitems": [],
+          "path": "/projects/coin-flipper",
+          "prevName": "Magic button trick",
+          "prevPath": "/projects/magic-button-trick",
+          "nextName": "Salute!",
+          "nextPath": "/projects/salute"
+        },
+        {
+          "name": "Salute!",
+          "subitems": [],
+          "path": "/projects/salute",
+          "prevName": "Coin Flipper",
+          "prevPath": "/projects/coin-flipper",
+          "nextName": "Hack your headphones",
+          "nextPath": "/projects/hack-your-headphones"
+        },
+        {
+          "name": "Hack your headphones",
+          "subitems": [],
+          "path": "/projects/hack-your-headphones",
+          "prevName": "Salute!",
+          "prevPath": "/projects/salute",
+          "nextName": "Banana keyboard",
+          "nextPath": "/projects/banana-keyboard"
+        },
+        {
+          "name": "Banana keyboard",
+          "subitems": [],
+          "path": "/projects/banana-keyboard",
+          "prevName": "Hack your headphones",
+          "prevPath": "/projects/hack-your-headphones",
+          "nextName": "Guitar",
+          "nextPath": "/projects/guitar"
+        },
+        {
+          "name": "Guitar",
+          "subitems": [],
+          "path": "/projects/guitar",
+          "prevName": "Banana keyboard",
+          "prevPath": "/projects/banana-keyboard",
+          "nextName": "Duct tape wallet",
+          "nextPath": "/projects/wallet"
+        },
+        {
+          "name": "Duct tape wallet",
+          "subitems": [],
+          "path": "/projects/wallet",
+          "prevName": "Guitar",
+          "prevPath": "/projects/guitar",
+          "nextName": "Watch",
+          "nextPath": "/projects/watch"
+        },
+        {
+          "name": "Watch",
+          "subitems": [],
+          "path": "/projects/watch",
+          "prevName": "Duct tape wallet",
+          "prevPath": "/projects/wallet",
+          "nextName": "Soil Moisture",
+          "nextPath": "/projects/soil-moisture"
+        },
+        {
+          "name": "Soil Moisture",
+          "subitems": [],
+          "path": "/projects/soil-moisture",
+          "prevName": "Watch",
+          "prevPath": "/projects/watch",
+          "nextName": "Plant Watering",
+          "nextPath": "/projects/plant-watering"
+        },
+        {
+          "name": "Plant Watering",
+          "subitems": [],
+          "path": "/projects/plant-watering",
+          "prevName": "Soil Moisture",
+          "prevPath": "/projects/soil-moisture",
+          "nextName": "Reaction Time",
+          "nextPath": "/projects/reaction-time"
+        },
+        {
+          "name": "Reaction Time",
+          "subitems": [],
+          "path": "/projects/reaction-time",
+          "prevName": "Plant Watering",
+          "prevPath": "/projects/plant-watering",
+          "nextName": "States of Matter",
+          "nextPath": "/projects/states-of-matter"
+        },
+        {
+          "name": "States of Matter",
+          "subitems": [],
+          "path": "/projects/states-of-matter",
+          "prevName": "Reaction Time",
+          "prevPath": "/projects/reaction-time",
+          "nextName": "Hot Or Cold",
+          "nextPath": "/projects/hot-or-cold"
+        },
+        {
+          "name": "Hot Or Cold",
+          "subitems": [],
+          "path": "/projects/hot-or-cold",
+          "prevName": "States of Matter",
+          "prevPath": "/projects/states-of-matter",
+          "nextName": "Voting Machine",
+          "nextPath": "/projects/voting-machine"
+        },
+        {
+          "name": "Voting Machine",
+          "subitems": [],
+          "path": "/projects/voting-machine",
+          "prevName": "Hot Or Cold",
+          "prevPath": "/projects/hot-or-cold",
+          "nextName": "Infection",
+          "nextPath": "/projects/infection"
+        },
+        {
+          "name": "Infection",
+          "subitems": [],
+          "path": "/projects/infection",
+          "prevName": "Voting Machine",
+          "prevPath": "/projects/voting-machine",
+          "nextName": "Fireflies",
+          "nextPath": "/projects/fireflies"
+        },
+        {
+          "name": "Fireflies",
+          "subitems": [],
+          "path": "/projects/fireflies",
+          "prevName": "Infection",
+          "prevPath": "/projects/infection",
+          "nextName": "Rock Paper Scissors Teams",
+          "nextPath": "/projects/rps-teams"
+        },
+        {
+          "name": "Rock Paper Scissors Teams",
+          "subitems": [],
+          "path": "/projects/rps-teams",
+          "prevName": "Fireflies",
+          "prevPath": "/projects/fireflies",
+          "nextName": "micro:coin",
+          "nextPath": "/projects/micro-coin"
+        },
+        {
+          "name": "micro:coin",
+          "subitems": [],
+          "path": "/projects/micro-coin",
+          "prevName": "Rock Paper Scissors Teams",
+          "prevPath": "/projects/rps-teams",
+          "nextName": "Inchworm",
+          "nextPath": "/projects/inchworm"
+        },
+        {
+          "name": "Inchworm",
+          "subitems": [],
+          "path": "/projects/inchworm",
+          "prevName": "micro:coin",
+          "prevPath": "/projects/micro-coin",
+          "nextName": "Milk Carton Robot",
+          "nextPath": "/projects/milk-carton-robot"
+        },
+        {
+          "name": "Milk Carton Robot",
+          "subitems": [],
+          "path": "/projects/milk-carton-robot",
+          "prevName": "Inchworm",
+          "prevPath": "/projects/inchworm",
+          "nextName": "Milk monster",
+          "nextPath": "/projects/milky-monster"
+        },
+        {
+          "name": "Milk monster",
+          "subitems": [],
+          "path": "/projects/milky-monster",
+          "prevName": "Milk Carton Robot",
+          "prevPath": "/projects/milk-carton-robot",
+          "nextName": "RC Car",
+          "nextPath": "/projects/rc-car"
+        },
+        {
+          "name": "RC Car",
+          "subitems": [],
+          "path": "/projects/rc-car",
+          "prevName": "Milk monster",
+          "prevPath": "/projects/milky-monster",
+          "nextName": "Timing gates",
+          "nextPath": "/projects/timing-gates"
+        },
+        {
+          "name": "Timing gates",
+          "subitems": [],
+          "path": "/projects/timing-gates",
+          "prevName": "RC Car",
+          "prevPath": "/projects/rc-car",
+          "nextName": "Compass",
+          "nextPath": "/projects/compass"
+        },
+        {
+          "name": "Compass",
+          "subitems": [],
+          "path": "/projects/compass",
+          "prevName": "Timing gates",
+          "prevPath": "/projects/timing-gates",
+          "nextName": "Telegraph",
+          "nextPath": "/projects/telegraph"
+        },
+        {
+          "name": "Telegraph",
+          "subitems": [],
+          "path": "/projects/telegraph",
+          "prevName": "Compass",
+          "prevPath": "/projects/compass",
+          "nextName": "Railway Crossing",
+          "nextPath": "/projects/railway-crossing"
+        },
+        {
+          "name": "Railway Crossing",
+          "subitems": [],
+          "path": "/projects/railway-crossing",
+          "prevName": "Telegraph",
+          "prevPath": "/projects/telegraph",
+          "nextName": "Karel",
+          "nextPath": "/projects/karel"
+        },
+        {
+          "name": "Karel",
+          "subitems": [],
+          "path": "/projects/karel",
+          "prevName": "Railway Crossing",
+          "prevPath": "/projects/railway-crossing",
+          "nextName": "Examples",
+          "nextPath": "/examples"
+        }
+      ],
+      "path": "/projects",
+      "prevName": "Support",
+      "prevPath": "https://support.microbit.org/",
+      "nextName": "Flashing heart",
+      "nextPath": "/projects/flashing-heart"
+    },
+    {
+      "name": "Examples",
+      "subitems": [
+        {
+          "name": "Blinky",
+          "subitems": [],
+          "path": "/examples/blinky",
+          "prevName": "Examples",
+          "prevPath": "/examples",
+          "nextName": "Name tag",
+          "nextPath": "/examples/name-tag"
+        },
+        {
+          "name": "Name tag",
+          "subitems": [],
+          "path": "/examples/name-tag",
+          "prevName": "Blinky",
+          "prevPath": "/examples/blinky",
+          "nextName": "Rando",
+          "nextPath": "/examples/rando"
+        },
+        {
+          "name": "Rando",
+          "subitems": [],
+          "path": "/examples/rando",
+          "prevName": "Name tag",
+          "prevPath": "/examples/name-tag",
+          "nextName": "Plot acceleration",
+          "nextPath": "/examples/plot-acceleration"
+        },
+        {
+          "name": "Plot acceleration",
+          "subitems": [],
+          "path": "/examples/plot-acceleration",
+          "prevName": "Rando",
+          "prevPath": "/examples/rando",
+          "nextName": "Plot light level",
+          "nextPath": "/examples/plot-light-level"
+        },
+        {
+          "name": "Plot light level",
+          "subitems": [],
+          "path": "/examples/plot-light-level",
+          "prevName": "Plot acceleration",
+          "prevPath": "/examples/plot-acceleration",
+          "nextName": "Plot analog pin",
+          "nextPath": "/examples/plot-analog-pin"
+        },
+        {
+          "name": "Plot analog pin",
+          "subitems": [],
+          "path": "/examples/plot-analog-pin",
+          "prevName": "Plot light level",
+          "prevPath": "/examples/plot-light-level",
+          "nextName": "Servo calibrator",
+          "nextPath": "/examples/servo-calibrator"
+        },
+        {
+          "name": "Servo calibrator",
+          "subitems": [],
+          "path": "/examples/servo-calibrator",
+          "prevName": "Plot analog pin",
+          "prevPath": "/examples/plot-analog-pin",
+          "nextName": "Game of Life",
+          "nextPath": "/examples/gameofLife"
+        },
+        {
+          "name": "Game of Life",
+          "subitems": [],
+          "path": "/examples/gameofLife",
+          "prevName": "Servo calibrator",
+          "prevPath": "/examples/servo-calibrator",
+          "nextName": "Egg and Spoon Race",
+          "nextPath": "/examples/egg-and-spoon"
+        },
+        {
+          "name": "Egg and Spoon Race",
+          "subitems": [],
+          "path": "/examples/egg-and-spoon",
+          "prevName": "Game of Life",
+          "prevPath": "/examples/gameofLife",
+          "nextName": "Stop watch",
+          "nextPath": "/examples/stop-watch"
+        },
+        {
+          "name": "Stop watch",
+          "subitems": [],
+          "path": "/examples/stop-watch",
+          "prevName": "Egg and Spoon Race",
+          "prevPath": "/examples/egg-and-spoon",
+          "nextName": "Radio dashboard",
+          "nextPath": "/examples/radio-dashboard"
+        },
+        {
+          "name": "Radio dashboard",
+          "subitems": [],
+          "path": "/examples/radio-dashboard",
+          "prevName": "Stop watch",
+          "prevPath": "/examples/stop-watch",
+          "nextName": "Courses",
+          "nextPath": "/courses"
+        }
+      ],
+      "path": "/examples",
+      "prevName": "Karel",
+      "prevPath": "/projects/karel",
+      "nextName": "Blinky",
+      "nextPath": "/examples/blinky"
+    },
+    {
+      "name": "Courses",
+      "subitems": [
+        {
+          "name": "CS Intro",
+          "subitems": [
+            {
+              "name": "About",
+              "subitems": [],
+              "path": "/courses/csintro/about",
+              "prevName": "CS Intro",
+              "prevPath": "/courses/csintro",
+              "nextName": "Introduction",
+              "nextPath": "/courses/csintro/introduction"
+            },
+            {
+              "name": "Introduction",
+              "subitems": [],
+              "path": "/courses/csintro/introduction",
+              "prevName": "About",
+              "prevPath": "/courses/csintro/about",
+              "nextName": "References",
+              "nextPath": "/courses/csintro/references"
+            },
+            {
+              "name": "References",
+              "subitems": [],
+              "path": "/courses/csintro/references",
+              "prevName": "Introduction",
+              "prevPath": "/courses/csintro/introduction",
+              "nextName": "Acknowledgements",
+              "nextPath": "/courses/csintro/acknowledgements"
+            },
+            {
+              "name": "Acknowledgements",
+              "subitems": [],
+              "path": "/courses/csintro/acknowledgements",
+              "prevName": "References",
+              "prevPath": "/courses/csintro/references",
+              "nextName": "Making",
+              "nextPath": "/courses/csintro/making"
+            },
+            {
+              "name": "Making",
+              "subitems": [
+                {
+                  "name": "Introduction",
+                  "subitems": [],
+                  "path": "/courses/csintro/making/introduction",
+                  "prevName": "Making",
+                  "prevPath": "/courses/csintro/making",
+                  "nextName": "Unplugged",
+                  "nextPath": "/courses/csintro/making/unplugged"
+                },
+                {
+                  "name": "Unplugged",
+                  "subitems": [],
+                  "path": "/courses/csintro/making/unplugged",
+                  "prevName": "Introduction",
+                  "prevPath": "/courses/csintro/making/introduction",
+                  "nextName": "Walkthrough",
+                  "nextPath": "/courses/csintro/making/activity"
+                },
+                {
+                  "name": "Walkthrough",
+                  "subitems": [],
+                  "path": "/courses/csintro/making/activity",
+                  "prevName": "Unplugged",
+                  "prevPath": "/courses/csintro/making/unplugged",
+                  "nextName": "Project",
+                  "nextPath": "/courses/csintro/making/project"
+                },
+                {
+                  "name": "Project",
+                  "subitems": [],
+                  "path": "/courses/csintro/making/project",
+                  "prevName": "Walkthrough",
+                  "prevPath": "/courses/csintro/making/activity",
+                  "nextName": "Standards",
+                  "nextPath": "/courses/csintro/making/standards"
+                },
+                {
+                  "name": "Standards",
+                  "subitems": [],
+                  "path": "/courses/csintro/making/standards",
+                  "prevName": "Project",
+                  "prevPath": "/courses/csintro/making/project",
+                  "nextName": "Algorithms",
+                  "nextPath": "/courses/csintro/algorithms"
+                }
+              ],
+              "path": "/courses/csintro/making",
+              "prevName": "Acknowledgements",
+              "prevPath": "/courses/csintro/acknowledgements",
+              "nextName": "Introduction",
+              "nextPath": "/courses/csintro/making/introduction"
+            },
+            {
+              "name": "Algorithms",
+              "subitems": [
+                {
+                  "name": "Overview",
+                  "subitems": [],
+                  "path": "/courses/csintro/algorithms/overview",
+                  "prevName": "Algorithms",
+                  "prevPath": "/courses/csintro/algorithms",
+                  "nextName": "Unplugged",
+                  "nextPath": "/courses/csintro/algorithms/unplugged"
+                },
+                {
+                  "name": "Unplugged",
+                  "subitems": [],
+                  "path": "/courses/csintro/algorithms/unplugged",
+                  "prevName": "Overview",
+                  "prevPath": "/courses/csintro/algorithms/overview",
+                  "nextName": "Activity",
+                  "nextPath": "/courses/csintro/algorithms/activity"
+                },
+                {
+                  "name": "Activity",
+                  "subitems": [],
+                  "path": "/courses/csintro/algorithms/activity",
+                  "prevName": "Unplugged",
+                  "prevPath": "/courses/csintro/algorithms/unplugged",
+                  "nextName": "Project",
+                  "nextPath": "/courses/csintro/algorithms/project"
+                },
+                {
+                  "name": "Project",
+                  "subitems": [],
+                  "path": "/courses/csintro/algorithms/project",
+                  "prevName": "Activity",
+                  "prevPath": "/courses/csintro/algorithms/activity",
+                  "nextName": "Standards",
+                  "nextPath": "/courses/csintro/algorithms/standards"
+                },
+                {
+                  "name": "Standards",
+                  "subitems": [],
+                  "path": "/courses/csintro/algorithms/standards",
+                  "prevName": "Project",
+                  "prevPath": "/courses/csintro/algorithms/project",
+                  "nextName": "Variables",
+                  "nextPath": "/courses/csintro/variables"
+                }
+              ],
+              "path": "/courses/csintro/algorithms",
+              "prevName": "Standards",
+              "prevPath": "/courses/csintro/making/standards",
+              "nextName": "Overview",
+              "nextPath": "/courses/csintro/algorithms/overview"
+            },
+            {
+              "name": "Variables",
+              "subitems": [
+                {
+                  "name": "Overview",
+                  "subitems": [],
+                  "path": "/courses/csintro/variables/overview",
+                  "prevName": "Variables",
+                  "prevPath": "/courses/csintro/variables",
+                  "nextName": "Unplugged",
+                  "nextPath": "/courses/csintro/variables/unplugged"
+                },
+                {
+                  "name": "Unplugged",
+                  "subitems": [],
+                  "path": "/courses/csintro/variables/unplugged",
+                  "prevName": "Overview",
+                  "prevPath": "/courses/csintro/variables/overview",
+                  "nextName": "Activity",
+                  "nextPath": "/courses/csintro/variables/activity"
+                },
+                {
+                  "name": "Activity",
+                  "subitems": [],
+                  "path": "/courses/csintro/variables/activity",
+                  "prevName": "Unplugged",
+                  "prevPath": "/courses/csintro/variables/unplugged",
+                  "nextName": "Project",
+                  "nextPath": "/courses/csintro/variables/project"
+                },
+                {
+                  "name": "Project",
+                  "subitems": [],
+                  "path": "/courses/csintro/variables/project",
+                  "prevName": "Activity",
+                  "prevPath": "/courses/csintro/variables/activity",
+                  "nextName": "Standards",
+                  "nextPath": "/courses/csintro/variables/standards"
+                },
+                {
+                  "name": "Standards",
+                  "subitems": [],
+                  "path": "/courses/csintro/variables/standards",
+                  "prevName": "Project",
+                  "prevPath": "/courses/csintro/variables/project",
+                  "nextName": "Conditionals",
+                  "nextPath": "/courses/csintro/conditionals"
+                }
+              ],
+              "path": "/courses/csintro/variables",
+              "prevName": "Standards",
+              "prevPath": "/courses/csintro/algorithms/standards",
+              "nextName": "Overview",
+              "nextPath": "/courses/csintro/variables/overview"
+            },
+            {
+              "name": "Conditionals",
+              "subitems": [
+                {
+                  "name": "Overview",
+                  "subitems": [],
+                  "path": "/courses/csintro/conditionals/overview",
+                  "prevName": "Conditionals",
+                  "prevPath": "/courses/csintro/conditionals",
+                  "nextName": "Unplugged",
+                  "nextPath": "/courses/csintro/conditionals/unplugged"
+                },
+                {
+                  "name": "Unplugged",
+                  "subitems": [],
+                  "path": "/courses/csintro/conditionals/unplugged",
+                  "prevName": "Overview",
+                  "prevPath": "/courses/csintro/conditionals/overview",
+                  "nextName": "Activity",
+                  "nextPath": "/courses/csintro/conditionals/activity"
+                },
+                {
+                  "name": "Activity",
+                  "subitems": [],
+                  "path": "/courses/csintro/conditionals/activity",
+                  "prevName": "Unplugged",
+                  "prevPath": "/courses/csintro/conditionals/unplugged",
+                  "nextName": "Project",
+                  "nextPath": "/courses/csintro/conditionals/project"
+                },
+                {
+                  "name": "Project",
+                  "subitems": [],
+                  "path": "/courses/csintro/conditionals/project",
+                  "prevName": "Activity",
+                  "prevPath": "/courses/csintro/conditionals/activity",
+                  "nextName": "Standards",
+                  "nextPath": "/courses/csintro/conditionals/standards"
+                },
+                {
+                  "name": "Standards",
+                  "subitems": [],
+                  "path": "/courses/csintro/conditionals/standards",
+                  "prevName": "Project",
+                  "prevPath": "/courses/csintro/conditionals/project",
+                  "nextName": "Iteration",
+                  "nextPath": "/courses/csintro/iteration"
+                }
+              ],
+              "path": "/courses/csintro/conditionals",
+              "prevName": "Standards",
+              "prevPath": "/courses/csintro/variables/standards",
+              "nextName": "Overview",
+              "nextPath": "/courses/csintro/conditionals/overview"
+            },
+            {
+              "name": "Iteration",
+              "subitems": [
+                {
+                  "name": "Overview",
+                  "subitems": [],
+                  "path": "/courses/csintro/iteration/overview",
+                  "prevName": "Iteration",
+                  "prevPath": "/courses/csintro/iteration",
+                  "nextName": "Unplugged",
+                  "nextPath": "/courses/csintro/iteration/unplugged"
+                },
+                {
+                  "name": "Unplugged",
+                  "subitems": [],
+                  "path": "/courses/csintro/iteration/unplugged",
+                  "prevName": "Overview",
+                  "prevPath": "/courses/csintro/iteration/overview",
+                  "nextName": "Activity",
+                  "nextPath": "/courses/csintro/iteration/activity"
+                },
+                {
+                  "name": "Activity",
+                  "subitems": [],
+                  "path": "/courses/csintro/iteration/activity",
+                  "prevName": "Unplugged",
+                  "prevPath": "/courses/csintro/iteration/unplugged",
+                  "nextName": "Project",
+                  "nextPath": "/courses/csintro/iteration/project"
+                },
+                {
+                  "name": "Project",
+                  "subitems": [],
+                  "path": "/courses/csintro/iteration/project",
+                  "prevName": "Activity",
+                  "prevPath": "/courses/csintro/iteration/activity",
+                  "nextName": "Standards",
+                  "nextPath": "/courses/csintro/iteration/standards"
+                },
+                {
+                  "name": "Standards",
+                  "subitems": [],
+                  "path": "/courses/csintro/iteration/standards",
+                  "prevName": "Project",
+                  "prevPath": "/courses/csintro/iteration/project",
+                  "nextName": "Mini-project",
+                  "nextPath": "/courses/csintro/miniproject"
+                }
+              ],
+              "path": "/courses/csintro/iteration",
+              "prevName": "Standards",
+              "prevPath": "/courses/csintro/conditionals/standards",
+              "nextName": "Overview",
+              "nextPath": "/courses/csintro/iteration/overview"
+            },
+            {
+              "name": "Mini-project",
+              "subitems": [
+                {
+                  "name": "Review",
+                  "subitems": [],
+                  "path": "/courses/csintro/miniproject/review",
+                  "prevName": "Mini-project",
+                  "prevPath": "/courses/csintro/miniproject",
+                  "nextName": "Activity",
+                  "nextPath": "/courses/csintro/miniproject/activity"
+                },
+                {
+                  "name": "Activity",
+                  "subitems": [],
+                  "path": "/courses/csintro/miniproject/activity",
+                  "prevName": "Review",
+                  "prevPath": "/courses/csintro/miniproject/review",
+                  "nextName": "Project",
+                  "nextPath": "/courses/csintro/miniproject/project"
+                },
+                {
+                  "name": "Project",
+                  "subitems": [],
+                  "path": "/courses/csintro/miniproject/project",
+                  "prevName": "Activity",
+                  "prevPath": "/courses/csintro/miniproject/activity",
+                  "nextName": "Standards",
+                  "nextPath": "/courses/csintro/miniproject/standards"
+                },
+                {
+                  "name": "Standards",
+                  "subitems": [],
+                  "path": "/courses/csintro/miniproject/standards",
+                  "prevName": "Project",
+                  "prevPath": "/courses/csintro/miniproject/project",
+                  "nextName": "Coordinates",
+                  "nextPath": "/courses/csintro/coordinates"
+                }
+              ],
+              "path": "/courses/csintro/miniproject",
+              "prevName": "Standards",
+              "prevPath": "/courses/csintro/iteration/standards",
+              "nextName": "Review",
+              "nextPath": "/courses/csintro/miniproject/review"
+            },
+            {
+              "name": "Coordinates",
+              "subitems": [
+                {
+                  "name": "Overview",
+                  "subitems": [],
+                  "path": "/courses/csintro/coordinates/overview",
+                  "prevName": "Coordinates",
+                  "prevPath": "/courses/csintro/coordinates",
+                  "nextName": "Unplugged",
+                  "nextPath": "/courses/csintro/coordinates/unplugged"
+                },
+                {
+                  "name": "Unplugged",
+                  "subitems": [],
+                  "path": "/courses/csintro/coordinates/unplugged",
+                  "prevName": "Overview",
+                  "prevPath": "/courses/csintro/coordinates/overview",
+                  "nextName": "Activity",
+                  "nextPath": "/courses/csintro/coordinates/activity"
+                },
+                {
+                  "name": "Activity",
+                  "subitems": [],
+                  "path": "/courses/csintro/coordinates/activity",
+                  "prevName": "Unplugged",
+                  "prevPath": "/courses/csintro/coordinates/unplugged",
+                  "nextName": "Project",
+                  "nextPath": "/courses/csintro/coordinates/project"
+                },
+                {
+                  "name": "Project",
+                  "subitems": [],
+                  "path": "/courses/csintro/coordinates/project",
+                  "prevName": "Activity",
+                  "prevPath": "/courses/csintro/coordinates/activity",
+                  "nextName": "Standards",
+                  "nextPath": "/courses/csintro/coordinates/standards"
+                },
+                {
+                  "name": "Standards",
+                  "subitems": [],
+                  "path": "/courses/csintro/coordinates/standards",
+                  "prevName": "Project",
+                  "prevPath": "/courses/csintro/coordinates/project",
+                  "nextName": "Booleans",
+                  "nextPath": "/courses/csintro/booleans"
+                }
+              ],
+              "path": "/courses/csintro/coordinates",
+              "prevName": "Standards",
+              "prevPath": "/courses/csintro/miniproject/standards",
+              "nextName": "Overview",
+              "nextPath": "/courses/csintro/coordinates/overview"
+            },
+            {
+              "name": "Booleans",
+              "subitems": [
+                {
+                  "name": "Overview",
+                  "subitems": [],
+                  "path": "/courses/csintro/booleans/overview",
+                  "prevName": "Booleans",
+                  "prevPath": "/courses/csintro/booleans",
+                  "nextName": "Unplugged",
+                  "nextPath": "/courses/csintro/booleans/unplugged"
+                },
+                {
+                  "name": "Unplugged",
+                  "subitems": [],
+                  "path": "/courses/csintro/booleans/unplugged",
+                  "prevName": "Overview",
+                  "prevPath": "/courses/csintro/booleans/overview",
+                  "nextName": "Activity",
+                  "nextPath": "/courses/csintro/booleans/activity"
+                },
+                {
+                  "name": "Activity",
+                  "subitems": [],
+                  "path": "/courses/csintro/booleans/activity",
+                  "prevName": "Unplugged",
+                  "prevPath": "/courses/csintro/booleans/unplugged",
+                  "nextName": "Project",
+                  "nextPath": "/courses/csintro/booleans/project"
+                },
+                {
+                  "name": "Project",
+                  "subitems": [],
+                  "path": "/courses/csintro/booleans/project",
+                  "prevName": "Activity",
+                  "prevPath": "/courses/csintro/booleans/activity",
+                  "nextName": "Standards",
+                  "nextPath": "/courses/csintro/booleans/standards"
+                },
+                {
+                  "name": "Standards",
+                  "subitems": [],
+                  "path": "/courses/csintro/booleans/standards",
+                  "prevName": "Project",
+                  "prevPath": "/courses/csintro/booleans/project",
+                  "nextName": "Binary",
+                  "nextPath": "/courses/csintro/binary"
+                }
+              ],
+              "path": "/courses/csintro/booleans",
+              "prevName": "Standards",
+              "prevPath": "/courses/csintro/coordinates/standards",
+              "nextName": "Overview",
+              "nextPath": "/courses/csintro/booleans/overview"
+            },
+            {
+              "name": "Binary",
+              "subitems": [
+                {
+                  "name": "Overview",
+                  "subitems": [],
+                  "path": "/courses/csintro/binary/overview",
+                  "prevName": "Binary",
+                  "prevPath": "/courses/csintro/binary",
+                  "nextName": "Unplugged",
+                  "nextPath": "/courses/csintro/binary/unplugged"
+                },
+                {
+                  "name": "Unplugged",
+                  "subitems": [],
+                  "path": "/courses/csintro/binary/unplugged",
+                  "prevName": "Overview",
+                  "prevPath": "/courses/csintro/binary/overview",
+                  "nextName": "Activity",
+                  "nextPath": "/courses/csintro/binary/activity"
+                },
+                {
+                  "name": "Activity",
+                  "subitems": [],
+                  "path": "/courses/csintro/binary/activity",
+                  "prevName": "Unplugged",
+                  "prevPath": "/courses/csintro/binary/unplugged",
+                  "nextName": "Project",
+                  "nextPath": "/courses/csintro/binary/project"
+                },
+                {
+                  "name": "Project",
+                  "subitems": [],
+                  "path": "/courses/csintro/binary/project",
+                  "prevName": "Activity",
+                  "prevPath": "/courses/csintro/binary/activity",
+                  "nextName": "Standards",
+                  "nextPath": "/courses/csintro/binary/standards"
+                },
+                {
+                  "name": "Standards",
+                  "subitems": [],
+                  "path": "/courses/csintro/binary/standards",
+                  "prevName": "Project",
+                  "prevPath": "/courses/csintro/binary/project",
+                  "nextName": "Radio",
+                  "nextPath": "/courses/csintro/radio"
+                }
+              ],
+              "path": "/courses/csintro/binary",
+              "prevName": "Standards",
+              "prevPath": "/courses/csintro/booleans/standards",
+              "nextName": "Overview",
+              "nextPath": "/courses/csintro/binary/overview"
+            },
+            {
+              "name": "Radio",
+              "subitems": [
+                {
+                  "name": "Overview",
+                  "subitems": [],
+                  "path": "/courses/csintro/radio/overview",
+                  "prevName": "Radio",
+                  "prevPath": "/courses/csintro/radio",
+                  "nextName": "Unplugged",
+                  "nextPath": "/courses/csintro/radio/unplugged"
+                },
+                {
+                  "name": "Unplugged",
+                  "subitems": [],
+                  "path": "/courses/csintro/radio/unplugged",
+                  "prevName": "Overview",
+                  "prevPath": "/courses/csintro/radio/overview",
+                  "nextName": "Activity",
+                  "nextPath": "/courses/csintro/radio/activity"
+                },
+                {
+                  "name": "Activity",
+                  "subitems": [],
+                  "path": "/courses/csintro/radio/activity",
+                  "prevName": "Unplugged",
+                  "prevPath": "/courses/csintro/radio/unplugged",
+                  "nextName": "Project",
+                  "nextPath": "/courses/csintro/radio/project"
+                },
+                {
+                  "name": "Project",
+                  "subitems": [],
+                  "path": "/courses/csintro/radio/project",
+                  "prevName": "Activity",
+                  "prevPath": "/courses/csintro/radio/activity",
+                  "nextName": "Standards",
+                  "nextPath": "/courses/csintro/radio/standards"
+                },
+                {
+                  "name": "Standards",
+                  "subitems": [],
+                  "path": "/courses/csintro/radio/standards",
+                  "prevName": "Project",
+                  "prevPath": "/courses/csintro/radio/project",
+                  "nextName": "Arrays",
+                  "nextPath": "/courses/csintro/arrays"
+                }
+              ],
+              "path": "/courses/csintro/radio",
+              "prevName": "Standards",
+              "prevPath": "/courses/csintro/binary/standards",
+              "nextName": "Overview",
+              "nextPath": "/courses/csintro/radio/overview"
+            },
+            {
+              "name": "Arrays",
+              "subitems": [
+                {
+                  "name": "Overview",
+                  "subitems": [],
+                  "path": "/courses/csintro/arrays/overview",
+                  "prevName": "Arrays",
+                  "prevPath": "/courses/csintro/arrays",
+                  "nextName": "Unplugged",
+                  "nextPath": "/courses/csintro/arrays/unplugged"
+                },
+                {
+                  "name": "Unplugged",
+                  "subitems": [],
+                  "path": "/courses/csintro/arrays/unplugged",
+                  "prevName": "Overview",
+                  "prevPath": "/courses/csintro/arrays/overview",
+                  "nextName": "Activity",
+                  "nextPath": "/courses/csintro/arrays/activity"
+                },
+                {
+                  "name": "Activity",
+                  "subitems": [],
+                  "path": "/courses/csintro/arrays/activity",
+                  "prevName": "Unplugged",
+                  "prevPath": "/courses/csintro/arrays/unplugged",
+                  "nextName": "Project",
+                  "nextPath": "/courses/csintro/arrays/project"
+                },
+                {
+                  "name": "Project",
+                  "subitems": [],
+                  "path": "/courses/csintro/arrays/project",
+                  "prevName": "Activity",
+                  "prevPath": "/courses/csintro/arrays/activity",
+                  "nextName": "Standards",
+                  "nextPath": "/courses/csintro/arrays/standards"
+                },
+                {
+                  "name": "Standards",
+                  "subitems": [],
+                  "path": "/courses/csintro/arrays/standards",
+                  "prevName": "Project",
+                  "prevPath": "/courses/csintro/arrays/project",
+                  "nextName": "Final Project",
+                  "nextPath": "/courses/csintro/finalproject"
+                }
+              ],
+              "path": "/courses/csintro/arrays",
+              "prevName": "Standards",
+              "prevPath": "/courses/csintro/radio/standards",
+              "nextName": "Overview",
+              "nextPath": "/courses/csintro/arrays/overview"
+            },
+            {
+              "name": "Final Project",
+              "subitems": [
+                {
+                  "name": "Review",
+                  "subitems": [],
+                  "path": "/courses/csintro/finalproject/review",
+                  "prevName": "Final Project",
+                  "prevPath": "/courses/csintro/finalproject",
+                  "nextName": "Project",
+                  "nextPath": "/courses/csintro/finalproject/project"
+                },
+                {
+                  "name": "Project",
+                  "subitems": [],
+                  "path": "/courses/csintro/finalproject/project",
+                  "prevName": "Review",
+                  "prevPath": "/courses/csintro/finalproject/review",
+                  "nextName": "Examples",
+                  "nextPath": "/courses/csintro/finalproject/examples"
+                },
+                {
+                  "name": "Examples",
+                  "subitems": [],
+                  "path": "/courses/csintro/finalproject/examples",
+                  "prevName": "Project",
+                  "prevPath": "/courses/csintro/finalproject/project",
+                  "nextName": "Standards",
+                  "nextPath": "/courses/csintro/finalproject/standards"
+                },
+                {
+                  "name": "Standards",
+                  "subitems": [],
+                  "path": "/courses/csintro/finalproject/standards",
+                  "prevName": "Examples",
+                  "prevPath": "/courses/csintro/finalproject/examples",
+                  "nextName": "Science experiments",
+                  "nextPath": "/courses/ucp-science"
+                }
+              ],
+              "path": "/courses/csintro/finalproject",
+              "prevName": "Standards",
+              "prevPath": "/courses/csintro/arrays/standards",
+              "nextName": "Review",
+              "nextPath": "/courses/csintro/finalproject/review"
+            }
+          ],
+          "path": "/courses/csintro",
+          "prevName": "Courses",
+          "prevPath": "/courses",
+          "nextName": "About",
+          "nextPath": "/courses/csintro/about"
+        },
+        {
+          "name": "Science experiments",
+          "subitems": [
+            {
+              "name": "Data collection",
+              "subitems": [
+                {
+                  "name": "Overview",
+                  "subitems": [],
+                  "path": "/courses/ucp-science/data-collection/overview",
+                  "prevName": "Data collection",
+                  "prevPath": "/courses/ucp-science/data-collection",
+                  "nextName": "Setup and procedure",
+                  "nextPath": "/courses/ucp-science/data-collection/setup-procedure"
+                },
+                {
+                  "name": "Setup and procedure",
+                  "subitems": [],
+                  "path": "/courses/ucp-science/data-collection/setup-procedure",
+                  "prevName": "Overview",
+                  "prevPath": "/courses/ucp-science/data-collection/overview",
+                  "nextName": "Resources",
+                  "nextPath": "/courses/ucp-science/data-collection/resources"
+                },
+                {
+                  "name": "Resources",
+                  "subitems": [],
+                  "path": "/courses/ucp-science/data-collection/resources",
+                  "prevName": "Setup and procedure",
+                  "prevPath": "/courses/ucp-science/data-collection/setup-procedure",
+                  "nextName": "Population Traits",
+                  "nextPath": "/courses/ucp-science/population"
+                }
+              ],
+              "path": "/courses/ucp-science/data-collection",
+              "prevName": "Science experiments",
+              "prevPath": "/courses/ucp-science",
+              "nextName": "Overview",
+              "nextPath": "/courses/ucp-science/data-collection/overview"
+            },
+            {
+              "name": "Population Traits",
+              "subitems": [
+                {
+                  "name": "Overview",
+                  "subitems": [],
+                  "path": "/courses/ucp-science/population/overview",
+                  "prevName": "Population Traits",
+                  "prevPath": "/courses/ucp-science/population",
+                  "nextName": "Setup and procedure",
+                  "nextPath": "/courses/ucp-science/population/setup-procedure"
+                },
+                {
+                  "name": "Setup and procedure",
+                  "subitems": [],
+                  "path": "/courses/ucp-science/population/setup-procedure",
+                  "prevName": "Overview",
+                  "prevPath": "/courses/ucp-science/population/overview",
+                  "nextName": "Resources",
+                  "nextPath": "/courses/ucp-science/population/resources"
+                },
+                {
+                  "name": "Resources",
+                  "subitems": [],
+                  "path": "/courses/ucp-science/population/resources",
+                  "prevName": "Setup and procedure",
+                  "prevPath": "/courses/ucp-science/population/setup-procedure",
+                  "nextName": "Temperature",
+                  "nextPath": "/courses/ucp-science/temperature"
+                }
+              ],
+              "path": "/courses/ucp-science/population",
+              "prevName": "Resources",
+              "prevPath": "/courses/ucp-science/data-collection/resources",
+              "nextName": "Overview",
+              "nextPath": "/courses/ucp-science/population/overview"
+            },
+            {
+              "name": "Temperature",
+              "subitems": [
+                {
+                  "name": "Overview",
+                  "subitems": [],
+                  "path": "/courses/ucp-science/temperature/overview",
+                  "prevName": "Temperature",
+                  "prevPath": "/courses/ucp-science/temperature",
+                  "nextName": "Setup and procedure",
+                  "nextPath": "/courses/ucp-science/temperature/setup-procedure"
+                },
+                {
+                  "name": "Setup and procedure",
+                  "subitems": [],
+                  "path": "/courses/ucp-science/temperature/setup-procedure",
+                  "prevName": "Overview",
+                  "prevPath": "/courses/ucp-science/temperature/overview",
+                  "nextName": "Resources",
+                  "nextPath": "/courses/ucp-science/temperature/resources"
+                },
+                {
+                  "name": "Resources",
+                  "subitems": [],
+                  "path": "/courses/ucp-science/temperature/resources",
+                  "prevName": "Setup and procedure",
+                  "prevPath": "/courses/ucp-science/temperature/setup-procedure",
+                  "nextName": "Soil Moisture",
+                  "nextPath": "/courses/ucp-science/soil-moisture"
+                }
+              ],
+              "path": "/courses/ucp-science/temperature",
+              "prevName": "Resources",
+              "prevPath": "/courses/ucp-science/population/resources",
+              "nextName": "Overview",
+              "nextPath": "/courses/ucp-science/temperature/overview"
+            },
+            {
+              "name": "Soil Moisture",
+              "subitems": [
+                {
+                  "name": "Overview",
+                  "subitems": [],
+                  "path": "/courses/ucp-science/soil-moisture/overview",
+                  "prevName": "Soil Moisture",
+                  "prevPath": "/courses/ucp-science/soil-moisture",
+                  "nextName": "Setup and procedure",
+                  "nextPath": "/courses/ucp-science/soil-moisture/setup-procedure"
+                },
+                {
+                  "name": "Setup and procedure",
+                  "subitems": [],
+                  "path": "/courses/ucp-science/soil-moisture/setup-procedure",
+                  "prevName": "Overview",
+                  "prevPath": "/courses/ucp-science/soil-moisture/overview",
+                  "nextName": "Resources",
+                  "nextPath": "/courses/ucp-science/soil-moisture/resources"
+                },
+                {
+                  "name": "Resources",
+                  "subitems": [],
+                  "path": "/courses/ucp-science/soil-moisture/resources",
+                  "prevName": "Setup and procedure",
+                  "prevPath": "/courses/ucp-science/soil-moisture/setup-procedure",
+                  "nextName": "Gravity, Motion and Waves",
+                  "nextPath": "/courses/ucp-science/gravity"
+                }
+              ],
+              "path": "/courses/ucp-science/soil-moisture",
+              "prevName": "Resources",
+              "prevPath": "/courses/ucp-science/temperature/resources",
+              "nextName": "Overview",
+              "nextPath": "/courses/ucp-science/soil-moisture/overview"
+            },
+            {
+              "name": "Gravity, Motion and Waves",
+              "subitems": [
+                {
+                  "name": "Overview",
+                  "subitems": [],
+                  "path": "/courses/ucp-science/gravity/overview",
+                  "prevName": "Gravity, Motion and Waves",
+                  "prevPath": "/courses/ucp-science/gravity",
+                  "nextName": "Setup and procedure",
+                  "nextPath": "/courses/ucp-science/gravity/setup-procedure"
+                },
+                {
+                  "name": "Setup and procedure",
+                  "subitems": [],
+                  "path": "/courses/ucp-science/gravity/setup-procedure",
+                  "prevName": "Overview",
+                  "prevPath": "/courses/ucp-science/gravity/overview",
+                  "nextName": "Resources",
+                  "nextPath": "/courses/ucp-science/gravity/resources"
+                },
+                {
+                  "name": "Resources",
+                  "subitems": [],
+                  "path": "/courses/ucp-science/gravity/resources",
+                  "prevName": "Setup and procedure",
+                  "prevPath": "/courses/ucp-science/gravity/setup-procedure",
+                  "nextName": "Body Electrical and Waves",
+                  "nextPath": "/courses/ucp-science/body-electrical"
+                }
+              ],
+              "path": "/courses/ucp-science/gravity",
+              "prevName": "Resources",
+              "prevPath": "/courses/ucp-science/soil-moisture/resources",
+              "nextName": "Overview",
+              "nextPath": "/courses/ucp-science/gravity/overview"
+            },
+            {
+              "name": "Body Electrical and Waves",
+              "subitems": [
+                {
+                  "name": "Overview",
+                  "subitems": [],
+                  "path": "/courses/ucp-science/body-electrical/overview",
+                  "prevName": "Body Electrical and Waves",
+                  "prevPath": "/courses/ucp-science/body-electrical",
+                  "nextName": "Setup and procedure",
+                  "nextPath": "/courses/ucp-science/body-electrical/setup-procedure"
+                },
+                {
+                  "name": "Setup and procedure",
+                  "subitems": [],
+                  "path": "/courses/ucp-science/body-electrical/setup-procedure",
+                  "prevName": "Overview",
+                  "prevPath": "/courses/ucp-science/body-electrical/overview",
+                  "nextName": "Resources",
+                  "nextPath": "/courses/ucp-science/body-electrical/resources"
+                },
+                {
+                  "name": "Resources",
+                  "subitems": [],
+                  "path": "/courses/ucp-science/body-electrical/resources",
+                  "prevName": "Setup and procedure",
+                  "prevPath": "/courses/ucp-science/body-electrical/setup-procedure",
+                  "nextName": "Electricity",
+                  "nextPath": "/courses/ucp-science/electricity"
+                }
+              ],
+              "path": "/courses/ucp-science/body-electrical",
+              "prevName": "Resources",
+              "prevPath": "/courses/ucp-science/gravity/resources",
+              "nextName": "Overview",
+              "nextPath": "/courses/ucp-science/body-electrical/overview"
+            },
+            {
+              "name": "Electricity",
+              "subitems": [
+                {
+                  "name": "Overview",
+                  "subitems": [],
+                  "path": "/courses/ucp-science/electricity/overview",
+                  "prevName": "Electricity",
+                  "prevPath": "/courses/ucp-science/electricity",
+                  "nextName": "Setup and procedure",
+                  "nextPath": "/courses/ucp-science/electricity/setup-procedure"
+                },
+                {
+                  "name": "Setup and procedure",
+                  "subitems": [],
+                  "path": "/courses/ucp-science/electricity/setup-procedure",
+                  "prevName": "Overview",
+                  "prevPath": "/courses/ucp-science/electricity/overview",
+                  "nextName": "Resources",
+                  "nextPath": "/courses/ucp-science/electricity/resources"
+                },
+                {
+                  "name": "Resources",
+                  "subitems": [],
+                  "path": "/courses/ucp-science/electricity/resources",
+                  "prevName": "Setup and procedure",
+                  "prevPath": "/courses/ucp-science/electricity/setup-procedure",
+                  "nextName": "Reference",
+                  "nextPath": "/reference"
+                }
+              ],
+              "path": "/courses/ucp-science/electricity",
+              "prevName": "Resources",
+              "prevPath": "/courses/ucp-science/body-electrical/resources",
+              "nextName": "Overview",
+              "nextPath": "/courses/ucp-science/electricity/overview"
+            }
+          ],
+          "path": "/courses/ucp-science",
+          "prevName": "Standards",
+          "prevPath": "/courses/csintro/finalproject/standards",
+          "nextName": "Data collection",
+          "nextPath": "/courses/ucp-science/data-collection"
+        }
+      ],
+      "path": "/courses",
+      "prevName": "Radio dashboard",
+      "prevPath": "/examples/radio-dashboard",
+      "nextName": "CS Intro",
+      "nextPath": "/courses/csintro"
+    },
+    {
+      "name": "Reference",
+      "subitems": [
+        {
+          "name": "Basic",
+          "subitems": [
+            {
+              "name": "show number",
+              "subitems": [],
+              "path": "/reference/basic/show-number",
+              "prevName": "Basic",
+              "prevPath": "/reference/basic",
+              "nextName": "show icon",
+              "nextPath": "/reference/basic/show-icon"
+            },
+            {
+              "name": "show icon",
+              "subitems": [],
+              "path": "/reference/basic/show-icon",
+              "prevName": "show number",
+              "prevPath": "/reference/basic/show-number",
+              "nextName": "show leds",
+              "nextPath": "/reference/basic/show-leds"
+            },
+            {
+              "name": "show leds",
+              "subitems": [],
+              "path": "/reference/basic/show-leds",
+              "prevName": "show icon",
+              "prevPath": "/reference/basic/show-icon",
+              "nextName": "show string",
+              "nextPath": "/reference/basic/show-string"
+            },
+            {
+              "name": "show string",
+              "subitems": [],
+              "path": "/reference/basic/show-string",
+              "prevName": "show leds",
+              "prevPath": "/reference/basic/show-leds",
+              "nextName": "clear screen",
+              "nextPath": "/reference/basic/clear-screen"
+            },
+            {
+              "name": "clear screen",
+              "subitems": [],
+              "path": "/reference/basic/clear-screen",
+              "prevName": "show string",
+              "prevPath": "/reference/basic/show-string",
+              "nextName": "forever",
+              "nextPath": "/reference/basic/forever"
+            },
+            {
+              "name": "forever",
+              "subitems": [],
+              "path": "/reference/basic/forever",
+              "prevName": "clear screen",
+              "prevPath": "/reference/basic/clear-screen",
+              "nextName": "pause",
+              "nextPath": "/reference/basic/pause"
+            },
+            {
+              "name": "pause",
+              "subitems": [],
+              "path": "/reference/basic/pause",
+              "prevName": "forever",
+              "prevPath": "/reference/basic/forever",
+              "nextName": "show arrow",
+              "nextPath": "/reference/basic/show-arrow"
+            },
+            {
+              "name": "show arrow",
+              "subitems": [],
+              "path": "/reference/basic/show-arrow",
+              "prevName": "pause",
+              "prevPath": "/reference/basic/pause",
+              "nextName": "show animation",
+              "nextPath": "/reference/basic/show-animation"
+            },
+            {
+              "name": "show animation",
+              "subitems": [],
+              "path": "/reference/basic/show-animation",
+              "prevName": "show arrow",
+              "prevPath": "/reference/basic/show-arrow",
+              "nextName": "Input",
+              "nextPath": "/reference/input"
+            }
+          ],
+          "path": "/reference/basic",
+          "prevName": "Reference",
+          "prevPath": "/reference",
+          "nextName": "show number",
+          "nextPath": "/reference/basic/show-number"
+        },
+        {
+          "name": "Input",
+          "subitems": [
+            {
+              "name": "on button pressed",
+              "subitems": [],
+              "path": "/reference/input/on-button-pressed",
+              "prevName": "Input",
+              "prevPath": "/reference/input",
+              "nextName": "on gesture",
+              "nextPath": "/reference/input/on-gesture"
+            },
+            {
+              "name": "on gesture",
+              "subitems": [],
+              "path": "/reference/input/on-gesture",
+              "prevName": "on button pressed",
+              "prevPath": "/reference/input/on-button-pressed",
+              "nextName": "on pin pressed",
+              "nextPath": "/reference/input/on-pin-pressed"
+            },
+            {
+              "name": "on pin pressed",
+              "subitems": [],
+              "path": "/reference/input/on-pin-pressed",
+              "prevName": "on gesture",
+              "prevPath": "/reference/input/on-gesture",
+              "nextName": "button is pressed",
+              "nextPath": "/reference/input/button-is-pressed"
+            },
+            {
+              "name": "button is pressed",
+              "subitems": [],
+              "path": "/reference/input/button-is-pressed",
+              "prevName": "on pin pressed",
+              "prevPath": "/reference/input/on-pin-pressed",
+              "nextName": "compass heading",
+              "nextPath": "/reference/input/compass-heading"
+            },
+            {
+              "name": "compass heading",
+              "subitems": [],
+              "path": "/reference/input/compass-heading",
+              "prevName": "button is pressed",
+              "prevPath": "/reference/input/button-is-pressed",
+              "nextName": "pin is pressed",
+              "nextPath": "/reference/input/pin-is-pressed"
+            },
+            {
+              "name": "pin is pressed",
+              "subitems": [],
+              "path": "/reference/input/pin-is-pressed",
+              "prevName": "compass heading",
+              "prevPath": "/reference/input/compass-heading",
+              "nextName": "temperature",
+              "nextPath": "/reference/input/temperature"
+            },
+            {
+              "name": "temperature",
+              "subitems": [],
+              "path": "/reference/input/temperature",
+              "prevName": "pin is pressed",
+              "prevPath": "/reference/input/pin-is-pressed",
+              "nextName": "acceleration",
+              "nextPath": "/reference/input/acceleration"
+            },
+            {
+              "name": "acceleration",
+              "subitems": [],
+              "path": "/reference/input/acceleration",
+              "prevName": "temperature",
+              "prevPath": "/reference/input/temperature",
+              "nextName": "light level",
+              "nextPath": "/reference/input/light-level"
+            },
+            {
+              "name": "light level",
+              "subitems": [],
+              "path": "/reference/input/light-level",
+              "prevName": "acceleration",
+              "prevPath": "/reference/input/acceleration",
+              "nextName": "rotation",
+              "nextPath": "/reference/input/rotation"
+            },
+            {
+              "name": "rotation",
+              "subitems": [],
+              "path": "/reference/input/rotation",
+              "prevName": "light level",
+              "prevPath": "/reference/input/light-level",
+              "nextName": "magnetic force",
+              "nextPath": "/reference/input/magnetic-force"
+            },
+            {
+              "name": "magnetic force",
+              "subitems": [],
+              "path": "/reference/input/magnetic-force",
+              "prevName": "rotation",
+              "prevPath": "/reference/input/rotation",
+              "nextName": "running time",
+              "nextPath": "/reference/input/running-time"
+            },
+            {
+              "name": "running time",
+              "subitems": [],
+              "path": "/reference/input/running-time",
+              "prevName": "magnetic force",
+              "prevPath": "/reference/input/magnetic-force",
+              "nextName": "set accelerometer range",
+              "nextPath": "/reference/input/set-accelerometer-range"
+            },
+            {
+              "name": "set accelerometer range",
+              "subitems": [],
+              "path": "/reference/input/set-accelerometer-range",
+              "prevName": "running time",
+              "prevPath": "/reference/input/running-time",
+              "nextName": "Music",
+              "nextPath": "/reference/music"
+            }
+          ],
+          "path": "/reference/input",
+          "prevName": "show animation",
+          "prevPath": "/reference/basic/show-animation",
+          "nextName": "on button pressed",
+          "nextPath": "/reference/input/on-button-pressed"
+        },
+        {
+          "name": "Music",
+          "subitems": [
+            {
+              "name": "play tone",
+              "subitems": [],
+              "path": "/reference/music/play-tone",
+              "prevName": "Music",
+              "prevPath": "/reference/music",
+              "nextName": "ring tone",
+              "nextPath": "/reference/music/ring-tone"
+            },
+            {
+              "name": "ring tone",
+              "subitems": [],
+              "path": "/reference/music/ring-tone",
+              "prevName": "play tone",
+              "prevPath": "/reference/music/play-tone",
+              "nextName": "rest",
+              "nextPath": "/reference/music/rest"
+            },
+            {
+              "name": "rest",
+              "subitems": [],
+              "path": "/reference/music/rest",
+              "prevName": "ring tone",
+              "prevPath": "/reference/music/ring-tone",
+              "nextName": "beat",
+              "nextPath": "/reference/music/beat"
+            },
+            {
+              "name": "beat",
+              "subitems": [],
+              "path": "/reference/music/beat",
+              "prevName": "rest",
+              "prevPath": "/reference/music/rest",
+              "nextName": "tempo",
+              "nextPath": "/reference/music/tempo"
+            },
+            {
+              "name": "tempo",
+              "subitems": [],
+              "path": "/reference/music/tempo",
+              "prevName": "beat",
+              "prevPath": "/reference/music/beat",
+              "nextName": "change tempo by",
+              "nextPath": "/reference/music/change-tempo-by"
+            },
+            {
+              "name": "change tempo by",
+              "subitems": [],
+              "path": "/reference/music/change-tempo-by",
+              "prevName": "tempo",
+              "prevPath": "/reference/music/tempo",
+              "nextName": "set tempo",
+              "nextPath": "/reference/music/set-tempo"
+            },
+            {
+              "name": "set tempo",
+              "subitems": [],
+              "path": "/reference/music/set-tempo",
+              "prevName": "change tempo by",
+              "prevPath": "/reference/music/change-tempo-by",
+              "nextName": "Led",
+              "nextPath": "/reference/led"
+            }
+          ],
+          "path": "/reference/music",
+          "prevName": "set accelerometer range",
+          "prevPath": "/reference/input/set-accelerometer-range",
+          "nextName": "play tone",
+          "nextPath": "/reference/music/play-tone"
+        },
+        {
+          "name": "Led",
+          "subitems": [
+            {
+              "name": "plot",
+              "subitems": [],
+              "path": "/reference/led/plot",
+              "prevName": "Led",
+              "prevPath": "/reference/led",
+              "nextName": "unplot",
+              "nextPath": "/reference/led/unplot"
+            },
+            {
+              "name": "unplot",
+              "subitems": [],
+              "path": "/reference/led/unplot",
+              "prevName": "plot",
+              "prevPath": "/reference/led/plot",
+              "nextName": "point",
+              "nextPath": "/reference/led/point"
+            },
+            {
+              "name": "point",
+              "subitems": [],
+              "path": "/reference/led/point",
+              "prevName": "unplot",
+              "prevPath": "/reference/led/unplot",
+              "nextName": "toggle",
+              "nextPath": "/reference/led/toggle"
+            },
+            {
+              "name": "toggle",
+              "subitems": [],
+              "path": "/reference/led/toggle",
+              "prevName": "point",
+              "prevPath": "/reference/led/point",
+              "nextName": "brightness",
+              "nextPath": "/reference/led/brightness"
+            },
+            {
+              "name": "brightness",
+              "subitems": [],
+              "path": "/reference/led/brightness",
+              "prevName": "toggle",
+              "prevPath": "/reference/led/toggle",
+              "nextName": "set brightness",
+              "nextPath": "/reference/led/set-brightness"
+            },
+            {
+              "name": "set brightness",
+              "subitems": [],
+              "path": "/reference/led/set-brightness",
+              "prevName": "brightness",
+              "prevPath": "/reference/led/brightness",
+              "nextName": "stop animation",
+              "nextPath": "/reference/led/stop-animation"
+            },
+            {
+              "name": "stop animation",
+              "subitems": [],
+              "path": "/reference/led/stop-animation",
+              "prevName": "set brightness",
+              "prevPath": "/reference/led/set-brightness",
+              "nextName": "plot bar graph",
+              "nextPath": "/reference/led/plot-bar-graph"
+            },
+            {
+              "name": "plot bar graph",
+              "subitems": [],
+              "path": "/reference/led/plot-bar-graph",
+              "prevName": "stop animation",
+              "prevPath": "/reference/led/stop-animation",
+              "nextName": "enable",
+              "nextPath": "/reference/led/enable"
+            },
+            {
+              "name": "enable",
+              "subitems": [],
+              "path": "/reference/led/enable",
+              "prevName": "plot bar graph",
+              "prevPath": "/reference/led/plot-bar-graph",
+              "nextName": "Radio",
+              "nextPath": "/reference/radio"
+            }
+          ],
+          "path": "/reference/led",
+          "prevName": "set tempo",
+          "prevPath": "/reference/music/set-tempo",
+          "nextName": "plot",
+          "nextPath": "/reference/led/plot"
+        },
+        {
+          "name": "Radio",
+          "subitems": [
+            {
+              "name": "send number",
+              "subitems": [],
+              "path": "/reference/radio/send-number",
+              "prevName": "Radio",
+              "prevPath": "/reference/radio",
+              "nextName": "send value",
+              "nextPath": "/reference/radio/send-value"
+            },
+            {
+              "name": "send value",
+              "subitems": [],
+              "path": "/reference/radio/send-value",
+              "prevName": "send number",
+              "prevPath": "/reference/radio/send-number",
+              "nextName": "send string",
+              "nextPath": "/reference/radio/send-string"
+            },
+            {
+              "name": "send string",
+              "subitems": [],
+              "path": "/reference/radio/send-string",
+              "prevName": "send value",
+              "prevPath": "/reference/radio/send-value",
+              "nextName": "on data packet received",
+              "nextPath": "/reference/radio/on-data-packet-received"
+            },
+            {
+              "name": "on data packet received",
+              "subitems": [],
+              "path": "/reference/radio/on-data-packet-received",
+              "prevName": "send string",
+              "prevPath": "/reference/radio/send-string",
+              "nextName": "set group",
+              "nextPath": "/reference/radio/set-group"
+            },
+            {
+              "name": "set group",
+              "subitems": [],
+              "path": "/reference/radio/set-group",
+              "prevName": "on data packet received",
+              "prevPath": "/reference/radio/on-data-packet-received",
+              "nextName": "set transmit power",
+              "nextPath": "/reference/radio/set-transmit-power"
+            },
+            {
+              "name": "set transmit power",
+              "subitems": [],
+              "path": "/reference/radio/set-transmit-power",
+              "prevName": "set group",
+              "prevPath": "/reference/radio/set-group",
+              "nextName": "set transmit serial number",
+              "nextPath": "/reference/radio/set-transmit-serial-number"
+            },
+            {
+              "name": "set transmit serial number",
+              "subitems": [],
+              "path": "/reference/radio/set-transmit-serial-number",
+              "prevName": "set transmit power",
+              "prevPath": "/reference/radio/set-transmit-power",
+              "nextName": "write received packet to serial",
+              "nextPath": "/reference/radio/write-received-packet-to-serial"
+            },
+            {
+              "name": "write received packet to serial",
+              "subitems": [],
+              "path": "/reference/radio/write-received-packet-to-serial",
+              "prevName": "set transmit serial number",
+              "prevPath": "/reference/radio/set-transmit-serial-number",
+              "nextName": "Game",
+              "nextPath": "/reference/game"
+            }
+          ],
+          "path": "/reference/radio",
+          "prevName": "enable",
+          "prevPath": "/reference/led/enable",
+          "nextName": "send number",
+          "nextPath": "/reference/radio/send-number"
+        },
+        {
+          "name": "Game",
+          "subitems": [
+            {
+              "name": "create sprite",
+              "subitems": [],
+              "path": "/reference/game/create-sprite",
+              "prevName": "Game",
+              "prevPath": "/reference/game",
+              "nextName": "delete",
+              "nextPath": "/reference/game/delete"
+            },
+            {
+              "name": "delete",
+              "subitems": [],
+              "path": "/reference/game/delete",
+              "prevName": "create sprite",
+              "prevPath": "/reference/game/create-sprite",
+              "nextName": "move",
+              "nextPath": "/reference/game/move"
+            },
+            {
+              "name": "move",
+              "subitems": [],
+              "path": "/reference/game/move",
+              "prevName": "delete",
+              "prevPath": "/reference/game/delete",
+              "nextName": "turn",
+              "nextPath": "/reference/game/turn"
+            },
+            {
+              "name": "turn",
+              "subitems": [],
+              "path": "/reference/game/turn",
+              "prevName": "move",
+              "prevPath": "/reference/game/move",
+              "nextName": "in on edge bounce",
+              "nextPath": "/reference/game/if-on-edge-bounce"
+            },
+            {
+              "name": "in on edge bounce",
+              "subitems": [],
+              "path": "/reference/game/if-on-edge-bounce",
+              "prevName": "turn",
+              "prevPath": "/reference/game/turn",
+              "nextName": "get",
+              "nextPath": "/reference/game/get"
+            },
+            {
+              "name": "get",
+              "subitems": [],
+              "path": "/reference/game/get",
+              "prevName": "in on edge bounce",
+              "prevPath": "/reference/game/if-on-edge-bounce",
+              "nextName": "set",
+              "nextPath": "/reference/game/set"
+            },
+            {
+              "name": "set",
+              "subitems": [],
+              "path": "/reference/game/set",
+              "prevName": "get",
+              "prevPath": "/reference/game/get",
+              "nextName": "change",
+              "nextPath": "/reference/game/change"
+            },
+            {
+              "name": "change",
+              "subitems": [],
+              "path": "/reference/game/change",
+              "prevName": "set",
+              "prevPath": "/reference/game/set",
+              "nextName": "is touching",
+              "nextPath": "/reference/game/is-touching"
+            },
+            {
+              "name": "is touching",
+              "subitems": [],
+              "path": "/reference/game/is-touching",
+              "prevName": "change",
+              "prevPath": "/reference/game/change",
+              "nextName": "is touching edge",
+              "nextPath": "/reference/game/is-touching-edge"
+            },
+            {
+              "name": "is touching edge",
+              "subitems": [],
+              "path": "/reference/game/is-touching-edge",
+              "prevName": "is touching",
+              "prevPath": "/reference/game/is-touching",
+              "nextName": "add score",
+              "nextPath": "/reference/game/add-score"
+            },
+            {
+              "name": "add score",
+              "subitems": [],
+              "path": "/reference/game/add-score",
+              "prevName": "is touching edge",
+              "prevPath": "/reference/game/is-touching-edge",
+              "nextName": "score",
+              "nextPath": "/reference/game/score"
+            },
+            {
+              "name": "score",
+              "subitems": [],
+              "path": "/reference/game/score",
+              "prevName": "add score",
+              "prevPath": "/reference/game/add-score",
+              "nextName": "set score",
+              "nextPath": "/reference/game/set-score"
+            },
+            {
+              "name": "set score",
+              "subitems": [],
+              "path": "/reference/game/set-score",
+              "prevName": "score",
+              "prevPath": "/reference/game/score",
+              "nextName": "start countdown",
+              "nextPath": "/reference/game/start-countdown"
+            },
+            {
+              "name": "start countdown",
+              "subitems": [],
+              "path": "/reference/game/start-countdown",
+              "prevName": "set score",
+              "prevPath": "/reference/game/set-score",
+              "nextName": "game over",
+              "nextPath": "/reference/game/game-over"
+            },
+            {
+              "name": "game over",
+              "subitems": [],
+              "path": "/reference/game/game-over",
+              "prevName": "start countdown",
+              "prevPath": "/reference/game/start-countdown",
+              "nextName": "pause",
+              "nextPath": "/reference/game/pause"
+            },
+            {
+              "name": "pause",
+              "subitems": [],
+              "path": "/reference/game/pause",
+              "prevName": "game over",
+              "prevPath": "/reference/game/game-over",
+              "nextName": "resume",
+              "nextPath": "/reference/game/resume"
+            },
+            {
+              "name": "resume",
+              "subitems": [],
+              "path": "/reference/game/resume",
+              "prevName": "pause",
+              "prevPath": "/reference/game/pause",
+              "nextName": "Images",
+              "nextPath": "/reference/images"
+            }
+          ],
+          "path": "/reference/game",
+          "prevName": "write received packet to serial",
+          "prevPath": "/reference/radio/write-received-packet-to-serial",
+          "nextName": "create sprite",
+          "nextPath": "/reference/game/create-sprite"
+        },
+        {
+          "name": "Images",
+          "subitems": [
+            {
+              "name": "create image",
+              "subitems": [],
+              "path": "/reference/images/create-image",
+              "prevName": "Images",
+              "prevPath": "/reference/images",
+              "nextName": "create big image",
+              "nextPath": "/reference/images/create-big-image"
+            },
+            {
+              "name": "create big image",
+              "subitems": [],
+              "path": "/reference/images/create-big-image",
+              "prevName": "create image",
+              "prevPath": "/reference/images/create-image",
+              "nextName": "show image",
+              "nextPath": "/reference/images/show-image"
+            },
+            {
+              "name": "show image",
+              "subitems": [],
+              "path": "/reference/images/show-image",
+              "prevName": "create big image",
+              "prevPath": "/reference/images/create-big-image",
+              "nextName": "scroll image",
+              "nextPath": "/reference/images/scroll-image"
+            },
+            {
+              "name": "scroll image",
+              "subitems": [],
+              "path": "/reference/images/scroll-image",
+              "prevName": "show image",
+              "prevPath": "/reference/images/show-image",
+              "nextName": "arrow image",
+              "nextPath": "/reference/images/arrow-image"
+            },
+            {
+              "name": "arrow image",
+              "subitems": [],
+              "path": "/reference/images/arrow-image",
+              "prevName": "scroll image",
+              "prevPath": "/reference/images/scroll-image",
+              "nextName": "icon image",
+              "nextPath": "/reference/images/icon-image"
+            },
+            {
+              "name": "icon image",
+              "subitems": [],
+              "path": "/reference/images/icon-image",
+              "prevName": "arrow image",
+              "prevPath": "/reference/images/arrow-image",
+              "nextName": "arrow number",
+              "nextPath": "/reference/images/arrow-number"
+            },
+            {
+              "name": "arrow number",
+              "subitems": [],
+              "path": "/reference/images/arrow-number",
+              "prevName": "icon image",
+              "prevPath": "/reference/images/icon-image",
+              "nextName": "Pins",
+              "nextPath": "/reference/pins"
+            }
+          ],
+          "path": "/reference/images",
+          "prevName": "resume",
+          "prevPath": "/reference/game/resume",
+          "nextName": "create image",
+          "nextPath": "/reference/images/create-image"
+        },
+        {
+          "name": "Pins",
+          "subitems": [
+            {
+              "name": "digital read pin",
+              "subitems": [],
+              "path": "/reference/pins/digital-read-pin",
+              "prevName": "Pins",
+              "prevPath": "/reference/pins",
+              "nextName": "digital write pin",
+              "nextPath": "/reference/pins/digital-write-pin"
+            },
+            {
+              "name": "digital write pin",
+              "subitems": [],
+              "path": "/reference/pins/digital-write-pin",
+              "prevName": "digital read pin",
+              "prevPath": "/reference/pins/digital-read-pin",
+              "nextName": "analog read pin",
+              "nextPath": "/reference/pins/analog-read-pin"
+            },
+            {
+              "name": "analog read pin",
+              "subitems": [],
+              "path": "/reference/pins/analog-read-pin",
+              "prevName": "digital write pin",
+              "prevPath": "/reference/pins/digital-write-pin",
+              "nextName": "analog write pin",
+              "nextPath": "/reference/pins/analog-write-pin"
+            },
+            {
+              "name": "analog write pin",
+              "subitems": [],
+              "path": "/reference/pins/analog-write-pin",
+              "prevName": "analog read pin",
+              "prevPath": "/reference/pins/analog-read-pin",
+              "nextName": "analog set period",
+              "nextPath": "/reference/pins/analog-set-period"
+            },
+            {
+              "name": "analog set period",
+              "subitems": [],
+              "path": "/reference/pins/analog-set-period",
+              "prevName": "analog write pin",
+              "prevPath": "/reference/pins/analog-write-pin",
+              "nextName": "map",
+              "nextPath": "/reference/pins/map"
+            },
+            {
+              "name": "map",
+              "subitems": [],
+              "path": "/reference/pins/map",
+              "prevName": "analog set period",
+              "prevPath": "/reference/pins/analog-set-period",
+              "nextName": "on pulsed",
+              "nextPath": "/reference/pins/on-pulsed"
+            },
+            {
+              "name": "on pulsed",
+              "subitems": [],
+              "path": "/reference/pins/on-pulsed",
+              "prevName": "map",
+              "prevPath": "/reference/pins/map",
+              "nextName": "pulse duration",
+              "nextPath": "/reference/pins/pulse-duration"
+            },
+            {
+              "name": "pulse duration",
+              "subitems": [],
+              "path": "/reference/pins/pulse-duration",
+              "prevName": "on pulsed",
+              "prevPath": "/reference/pins/on-pulsed",
+              "nextName": "pulse in",
+              "nextPath": "/reference/pins/pulse-in"
+            },
+            {
+              "name": "pulse in",
+              "subitems": [],
+              "path": "/reference/pins/pulse-in",
+              "prevName": "pulse duration",
+              "prevPath": "/reference/pins/pulse-duration",
+              "nextName": "servo write pin",
+              "nextPath": "/reference/pins/servo-write-pin"
+            },
+            {
+              "name": "servo write pin",
+              "subitems": [],
+              "path": "/reference/pins/servo-write-pin",
+              "prevName": "pulse in",
+              "prevPath": "/reference/pins/pulse-in",
+              "nextName": "servo set pulse",
+              "nextPath": "/reference/pins/servo-set-pulse"
+            },
+            {
+              "name": "servo set pulse",
+              "subitems": [],
+              "path": "/reference/pins/servo-set-pulse",
+              "prevName": "servo write pin",
+              "prevPath": "/reference/pins/servo-write-pin",
+              "nextName": "i2c read number",
+              "nextPath": "/reference/pins/i2c-read-number"
+            },
+            {
+              "name": "i2c read number",
+              "subitems": [],
+              "path": "/reference/pins/i2c-read-number",
+              "prevName": "servo set pulse",
+              "prevPath": "/reference/pins/servo-set-pulse",
+              "nextName": "i2c write number",
+              "nextPath": "/reference/pins/i2c-write-number"
+            },
+            {
+              "name": "i2c write number",
+              "subitems": [],
+              "path": "/reference/pins/i2c-write-number",
+              "prevName": "i2c read number",
+              "prevPath": "/reference/pins/i2c-read-number",
+              "nextName": "set pull",
+              "nextPath": "/reference/pins/set-pull"
+            },
+            {
+              "name": "set pull",
+              "subitems": [],
+              "path": "/reference/pins/set-pull",
+              "prevName": "i2c write number",
+              "prevPath": "/reference/pins/i2c-write-number",
+              "nextName": "analog pitch",
+              "nextPath": "/reference/pins/analog-pitch"
+            },
+            {
+              "name": "analog pitch",
+              "subitems": [],
+              "path": "/reference/pins/analog-pitch",
+              "prevName": "set pull",
+              "prevPath": "/reference/pins/set-pull",
+              "nextName": "analog set pitch pin",
+              "nextPath": "/reference/pins/analog-set-pitch-pin"
+            },
+            {
+              "name": "analog set pitch pin",
+              "subitems": [],
+              "path": "/reference/pins/analog-set-pitch-pin",
+              "prevName": "analog pitch",
+              "prevPath": "/reference/pins/analog-pitch",
+              "nextName": "spi write",
+              "nextPath": "/reference/pins/spi-write"
+            },
+            {
+              "name": "spi write",
+              "subitems": [],
+              "path": "/reference/pins/spi-write",
+              "prevName": "analog set pitch pin",
+              "prevPath": "/reference/pins/analog-set-pitch-pin",
+              "nextName": "spi Pins",
+              "nextPath": "/reference/pins/spi-pins"
+            },
+            {
+              "name": "spi Pins",
+              "subitems": [],
+              "path": "/reference/pins/spi-pins",
+              "prevName": "spi write",
+              "prevPath": "/reference/pins/spi-write",
+              "nextName": "spi format",
+              "nextPath": "/reference/pins/spi-format"
+            },
+            {
+              "name": "spi format",
+              "subitems": [],
+              "path": "/reference/pins/spi-format",
+              "prevName": "spi Pins",
+              "prevPath": "/reference/pins/spi-pins",
+              "nextName": "spi frequency",
+              "nextPath": "/reference/pins/spi-frequency"
+            },
+            {
+              "name": "spi frequency",
+              "subitems": [],
+              "path": "/reference/pins/spi-frequency",
+              "prevName": "spi format",
+              "prevPath": "/reference/pins/spi-format",
+              "nextName": "Serial",
+              "nextPath": "/reference/serial"
+            }
+          ],
+          "path": "/reference/pins",
+          "prevName": "arrow number",
+          "prevPath": "/reference/images/arrow-number",
+          "nextName": "digital read pin",
+          "nextPath": "/reference/pins/digital-read-pin"
+        },
+        {
+          "name": "Serial",
+          "subitems": [
+            {
+              "name": "write line",
+              "subitems": [],
+              "path": "/reference/serial/write-line",
+              "prevName": "Serial",
+              "prevPath": "/reference/serial",
+              "nextName": "write number",
+              "nextPath": "/reference/serial/write-number"
+            },
+            {
+              "name": "write number",
+              "subitems": [],
+              "path": "/reference/serial/write-number",
+              "prevName": "write line",
+              "prevPath": "/reference/serial/write-line",
+              "nextName": "write value",
+              "nextPath": "/reference/serial/write-value"
+            },
+            {
+              "name": "write value",
+              "subitems": [],
+              "path": "/reference/serial/write-value",
+              "prevName": "write number",
+              "prevPath": "/reference/serial/write-number",
+              "nextName": "write string",
+              "nextPath": "/reference/serial/write-string"
+            },
+            {
+              "name": "write string",
+              "subitems": [],
+              "path": "/reference/serial/write-string",
+              "prevName": "write value",
+              "prevPath": "/reference/serial/write-value",
+              "nextName": "read until",
+              "nextPath": "/reference/serial/read-until"
+            },
+            {
+              "name": "read until",
+              "subitems": [],
+              "path": "/reference/serial/read-until",
+              "prevName": "write string",
+              "prevPath": "/reference/serial/write-string",
+              "nextName": "read line",
+              "nextPath": "/reference/serial/read-line"
+            },
+            {
+              "name": "read line",
+              "subitems": [],
+              "path": "/reference/serial/read-line",
+              "prevName": "read until",
+              "prevPath": "/reference/serial/read-until",
+              "nextName": "read string",
+              "nextPath": "/reference/serial/read-string"
+            },
+            {
+              "name": "read string",
+              "subitems": [],
+              "path": "/reference/serial/read-string",
+              "prevName": "read line",
+              "prevPath": "/reference/serial/read-line",
+              "nextName": "on data received",
+              "nextPath": "/reference/serial/on-data-received"
+            },
+            {
+              "name": "on data received",
+              "subitems": [],
+              "path": "/reference/serial/on-data-received",
+              "prevName": "read string",
+              "prevPath": "/reference/serial/read-string",
+              "nextName": "redirect",
+              "nextPath": "/reference/serial/redirect"
+            },
+            {
+              "name": "redirect",
+              "subitems": [],
+              "path": "/reference/serial/redirect",
+              "prevName": "on data received",
+              "prevPath": "/reference/serial/on-data-received",
+              "nextName": "redirect to usb",
+              "nextPath": "/reference/serial/redirect-to-usb"
+            },
+            {
+              "name": "redirect to usb",
+              "subitems": [],
+              "path": "/reference/serial/redirect-to-usb",
+              "prevName": "redirect",
+              "prevPath": "/reference/serial/redirect",
+              "nextName": "write buffer",
+              "nextPath": "/reference/serial/write-buffer"
+            },
+            {
+              "name": "write buffer",
+              "subitems": [],
+              "path": "/reference/serial/write-buffer",
+              "prevName": "redirect to usb",
+              "prevPath": "/reference/serial/redirect-to-usb",
+              "nextName": "read buffer",
+              "nextPath": "/reference/serial/read-buffer"
+            },
+            {
+              "name": "read buffer",
+              "subitems": [],
+              "path": "/reference/serial/read-buffer",
+              "prevName": "write buffer",
+              "prevPath": "/reference/serial/write-buffer",
+              "nextName": "Control",
+              "nextPath": "/reference/control"
+            }
+          ],
+          "path": "/reference/serial",
+          "prevName": "spi frequency",
+          "prevPath": "/reference/pins/spi-frequency",
+          "nextName": "write line",
+          "nextPath": "/reference/serial/write-line"
+        },
+        {
+          "name": "Control",
+          "subitems": [
+            {
+              "name": "in background",
+              "subitems": [],
+              "path": "/reference/control/in-background",
+              "prevName": "Control",
+              "prevPath": "/reference/control",
+              "nextName": "reset",
+              "nextPath": "/reference/control/reset"
+            },
+            {
+              "name": "reset",
+              "subitems": [],
+              "path": "/reference/control/reset",
+              "prevName": "in background",
+              "prevPath": "/reference/control/in-background",
+              "nextName": "wait micros",
+              "nextPath": "/reference/control/wait-micros"
+            },
+            {
+              "name": "wait micros",
+              "subitems": [],
+              "path": "/reference/control/wait-micros",
+              "prevName": "reset",
+              "prevPath": "/reference/control/reset",
+              "nextName": "on event",
+              "nextPath": "/reference/control/on-event"
+            },
+            {
+              "name": "on event",
+              "subitems": [],
+              "path": "/reference/control/on-event",
+              "prevName": "wait micros",
+              "prevPath": "/reference/control/wait-micros",
+              "nextName": "raise event",
+              "nextPath": "/reference/control/raise-event"
+            },
+            {
+              "name": "raise event",
+              "subitems": [],
+              "path": "/reference/control/raise-event",
+              "prevName": "on event",
+              "prevPath": "/reference/control/on-event",
+              "nextName": "event timestamp",
+              "nextPath": "/reference/control/event-timestamp"
+            },
+            {
+              "name": "event timestamp",
+              "subitems": [],
+              "path": "/reference/control/event-timestamp",
+              "prevName": "raise event",
+              "prevPath": "/reference/control/raise-event",
+              "nextName": "event value",
+              "nextPath": "/reference/control/event-value"
+            },
+            {
+              "name": "event value",
+              "subitems": [],
+              "path": "/reference/control/event-value",
+              "prevName": "event timestamp",
+              "prevPath": "/reference/control/event-timestamp",
+              "nextName": "Bluetooth",
+              "nextPath": "/reference/bluetooth"
+            }
+          ],
+          "path": "/reference/control",
+          "prevName": "read buffer",
+          "prevPath": "/reference/serial/read-buffer",
+          "nextName": "in background",
+          "nextPath": "/reference/control/in-background"
+        },
+        {
+          "name": "Bluetooth",
+          "subitems": [
+            {
+              "name": "",
+              "subitems": [],
+              "prevName": "Bluetooth",
+              "prevPath": "/reference/bluetooth"
+            },
+            {
+              "name": "Pairing",
+              "subitems": [],
+              "path": "/reference/bluetooth/bluetooth-pairing",
+              "prevName": "Bluetooth",
+              "prevPath": "/reference/bluetooth",
+              "nextName": "on bluetooth connected",
+              "nextPath": "/reference/bluetooth/on-bluetooth-connected"
+            },
+            {
+              "name": "on bluetooth connected",
+              "subitems": [],
+              "path": "/reference/bluetooth/on-bluetooth-connected",
+              "prevName": "Pairing",
+              "prevPath": "/reference/bluetooth/bluetooth-pairing",
+              "nextName": "on bluetooth disconnected",
+              "nextPath": "/reference/bluetooth/on-bluetooth-disconnected"
+            },
+            {
+              "name": "on bluetooth disconnected",
+              "subitems": [],
+              "path": "/reference/bluetooth/on-bluetooth-disconnected",
+              "prevName": "on bluetooth connected",
+              "prevPath": "/reference/bluetooth/on-bluetooth-connected",
+              "nextName": "start accelerometer service",
+              "nextPath": "/reference/bluetooth/start-accelerometer-service"
+            },
+            {
+              "name": "start accelerometer service",
+              "subitems": [],
+              "path": "/reference/bluetooth/start-accelerometer-service",
+              "prevName": "on bluetooth disconnected",
+              "prevPath": "/reference/bluetooth/on-bluetooth-disconnected",
+              "nextName": "start button service",
+              "nextPath": "/reference/bluetooth/start-button-service"
+            },
+            {
+              "name": "start button service",
+              "subitems": [],
+              "path": "/reference/bluetooth/start-button-service",
+              "prevName": "start accelerometer service",
+              "prevPath": "/reference/bluetooth/start-accelerometer-service",
+              "nextName": "start io pin service",
+              "nextPath": "/reference/bluetooth/start-io-pin-service"
+            },
+            {
+              "name": "start io pin service",
+              "subitems": [],
+              "path": "/reference/bluetooth/start-io-pin-service",
+              "prevName": "start button service",
+              "prevPath": "/reference/bluetooth/start-button-service",
+              "nextName": "start led service",
+              "nextPath": "/reference/bluetooth/start-led-service"
+            },
+            {
+              "name": "start led service",
+              "subitems": [],
+              "path": "/reference/bluetooth/start-led-service",
+              "prevName": "start io pin service",
+              "prevPath": "/reference/bluetooth/start-io-pin-service",
+              "nextName": "start magnetometer service",
+              "nextPath": "/reference/bluetooth/start-magnetometer-service"
+            },
+            {
+              "name": "start magnetometer service",
+              "subitems": [],
+              "path": "/reference/bluetooth/start-magnetometer-service",
+              "prevName": "start led service",
+              "prevPath": "/reference/bluetooth/start-led-service",
+              "nextName": "start temperature service",
+              "nextPath": "/reference/bluetooth/start-temperature-service"
+            },
+            {
+              "name": "start temperature service",
+              "subitems": [],
+              "path": "/reference/bluetooth/start-temperature-service",
+              "prevName": "start magnetometer service",
+              "prevPath": "/reference/bluetooth/start-magnetometer-service",
+              "nextName": "start uart service",
+              "nextPath": "/reference/bluetooth/start-uart-service"
+            },
+            {
+              "name": "start uart service",
+              "subitems": [],
+              "path": "/reference/bluetooth/start-uart-service",
+              "prevName": "start temperature service",
+              "prevPath": "/reference/bluetooth/start-temperature-service",
+              "nextName": "uart read until",
+              "nextPath": "/reference/bluetooth/uart-read-until"
+            },
+            {
+              "name": "uart read until",
+              "subitems": [],
+              "path": "/reference/bluetooth/uart-read-until",
+              "prevName": "start uart service",
+              "prevPath": "/reference/bluetooth/start-uart-service",
+              "nextName": "uart write string",
+              "nextPath": "/reference/bluetooth/uart-write-string"
+            },
+            {
+              "name": "uart write string",
+              "subitems": [],
+              "path": "/reference/bluetooth/uart-write-string",
+              "prevName": "uart read until",
+              "prevPath": "/reference/bluetooth/uart-read-until",
+              "nextName": "uart write number",
+              "nextPath": "/reference/bluetooth/uart-write-number"
+            },
+            {
+              "name": "uart write number",
+              "subitems": [],
+              "path": "/reference/bluetooth/uart-write-number",
+              "prevName": "uart write string",
+              "prevPath": "/reference/bluetooth/uart-write-string",
+              "nextName": "uart write value",
+              "nextPath": "/reference/bluetooth/uart-write-value"
+            },
+            {
+              "name": "uart write value",
+              "subitems": [],
+              "path": "/reference/bluetooth/uart-write-value",
+              "prevName": "uart write number",
+              "prevPath": "/reference/bluetooth/uart-write-number",
+              "nextName": "advertise url",
+              "nextPath": "/reference/bluetooth/advertise-url"
+            },
+            {
+              "name": "advertise url",
+              "subitems": [],
+              "path": "/reference/bluetooth/advertise-url",
+              "prevName": "uart write value",
+              "prevPath": "/reference/bluetooth/uart-write-value",
+              "nextName": "stop advertising",
+              "nextPath": "/reference/bluetooth/stop-advertising"
+            },
+            {
+              "name": "stop advertising",
+              "subitems": [],
+              "path": "/reference/bluetooth/stop-advertising",
+              "prevName": "advertise url",
+              "prevPath": "/reference/bluetooth/advertise-url",
+              "nextName": "advertise uid",
+              "nextPath": "/reference/bluetooth/advertise-uid"
+            },
+            {
+              "name": "advertise uid",
+              "subitems": [],
+              "path": "/reference/bluetooth/advertise-uid",
+              "prevName": "stop advertising",
+              "prevPath": "/reference/bluetooth/stop-advertising",
+              "nextName": "advertise-uid-buffer",
+              "nextPath": "/reference/bluetooth/advertise-uid-buffer"
+            },
+            {
+              "name": "advertise-uid-buffer",
+              "subitems": [],
+              "path": "/reference/bluetooth/advertise-uid-buffer",
+              "prevName": "advertise uid",
+              "prevPath": "/reference/bluetooth/advertise-uid",
+              "nextName": "Devices",
+              "nextPath": "/reference/devices"
+            }
+          ],
+          "path": "/reference/bluetooth",
+          "prevName": "event value",
+          "prevPath": "/reference/control/event-value",
+          "nextName": "Pairing",
+          "nextPath": "/reference/bluetooth/bluetooth-pairing"
+        },
+        {
+          "name": "Devices",
+          "subitems": [
+            {
+              "name": "tell camera to",
+              "subitems": [],
+              "path": "/reference/devices/tell-camera-to",
+              "prevName": "Devices",
+              "prevPath": "/reference/devices",
+              "nextName": "tell remote control to",
+              "nextPath": "/reference/devices/tell-remote-control-to"
+            },
+            {
+              "name": "tell remote control to",
+              "subitems": [],
+              "path": "/reference/devices/tell-remote-control-to",
+              "prevName": "tell camera to",
+              "prevPath": "/reference/devices/tell-camera-to",
+              "nextName": "raise alert to",
+              "nextPath": "/reference/devices/raise-alert-to"
+            },
+            {
+              "name": "raise alert to",
+              "subitems": [],
+              "path": "/reference/devices/raise-alert-to",
+              "prevName": "tell remote control to",
+              "prevPath": "/reference/devices/tell-remote-control-to",
+              "nextName": "on notified",
+              "nextPath": "/reference/devices/on-notified"
+            },
+            {
+              "name": "on notified",
+              "subitems": [],
+              "path": "/reference/devices/on-notified",
+              "prevName": "raise alert to",
+              "prevPath": "/reference/devices/raise-alert-to",
+              "nextName": "on gamepad button",
+              "nextPath": "/reference/devices/on-gamepad-button"
+            },
+            {
+              "name": "on gamepad button",
+              "subitems": [],
+              "path": "/reference/devices/on-gamepad-button",
+              "prevName": "on notified",
+              "prevPath": "/reference/devices/on-notified",
+              "nextName": "signal strength",
+              "nextPath": "/reference/devices/signal-strength"
+            },
+            {
+              "name": "signal strength",
+              "subitems": [],
+              "path": "/reference/devices/signal-strength",
+              "prevName": "on gamepad button",
+              "prevPath": "/reference/devices/on-gamepad-button",
+              "nextName": "on signal strength changed",
+              "nextPath": "/reference/devices/on-signal-strength-changed"
+            },
+            {
+              "name": "on signal strength changed",
+              "subitems": [],
+              "path": "/reference/devices/on-signal-strength-changed",
+              "prevName": "signal strength",
+              "prevPath": "/reference/devices/signal-strength",
+              "nextName": "Packages",
+              "nextPath": "/packages"
+            }
+          ],
+          "path": "/reference/devices",
+          "prevName": "advertise-uid-buffer",
+          "prevPath": "/reference/bluetooth/advertise-uid-buffer",
+          "nextName": "tell camera to",
+          "nextPath": "/reference/devices/tell-camera-to"
+        }
+      ],
+      "path": "/reference",
+      "prevName": "Resources",
+      "prevPath": "/courses/ucp-science/electricity/resources",
+      "nextName": "Basic",
+      "nextPath": "/reference/basic"
+    },
+    {
+      "name": "Packages",
+      "subitems": [],
+      "path": "/packages",
+      "prevName": "on signal strength changed",
+      "prevPath": "/reference/devices/on-signal-strength-changed",
+      "nextName": "Blocks",
+      "nextPath": "/blocks"
+    },
+    {
+      "name": "Blocks",
+      "subitems": [
+        {
+          "name": "On Start",
+          "subitems": [],
+          "path": "/blocks/on-start",
+          "prevName": "Blocks",
+          "prevPath": "/blocks",
+          "nextName": "Loops",
+          "nextPath": "/blocks/loops"
+        },
+        {
+          "name": "Loops",
+          "subitems": [
+            {
+              "name": "repeat",
+              "subitems": [],
+              "path": "/blocks/loops/repeat",
+              "prevName": "Loops",
+              "prevPath": "/blocks/loops",
+              "nextName": "for",
+              "nextPath": "/blocks/loops/for"
+            },
+            {
+              "name": "for",
+              "subitems": [],
+              "path": "/blocks/loops/for",
+              "prevName": "repeat",
+              "prevPath": "/blocks/loops/repeat",
+              "nextName": "while",
+              "nextPath": "/blocks/loops/while"
+            },
+            {
+              "name": "while",
+              "subitems": [],
+              "path": "/blocks/loops/while",
+              "prevName": "for",
+              "prevPath": "/blocks/loops/for",
+              "nextName": "Logic",
+              "nextPath": "/blocks/logic"
+            }
+          ],
+          "path": "/blocks/loops",
+          "prevName": "On Start",
+          "prevPath": "/blocks/on-start",
+          "nextName": "repeat",
+          "nextPath": "/blocks/loops/repeat"
+        },
+        {
+          "name": "Logic",
+          "subitems": [
+            {
+              "name": "if",
+              "subitems": [],
+              "path": "/blocks/logic/if",
+              "prevName": "Logic",
+              "prevPath": "/blocks/logic",
+              "nextName": "Boolean",
+              "nextPath": "/blocks/logic/boolean"
+            },
+            {
+              "name": "Boolean",
+              "subitems": [],
+              "path": "/blocks/logic/boolean",
+              "prevName": "if",
+              "prevPath": "/blocks/logic/if",
+              "nextName": "Variables",
+              "nextPath": "/blocks/variables"
+            }
+          ],
+          "path": "/blocks/logic",
+          "prevName": "while",
+          "prevPath": "/blocks/loops/while",
+          "nextName": "if",
+          "nextPath": "/blocks/logic/if"
+        },
+        {
+          "name": "Variables",
+          "subitems": [
+            {
+              "name": "assign",
+              "subitems": [],
+              "path": "/blocks/variables/assign",
+              "prevName": "Variables",
+              "prevPath": "/blocks/variables",
+              "nextName": "change var",
+              "nextPath": "/blocks/variables/change"
+            },
+            {
+              "name": "change var",
+              "subitems": [],
+              "path": "/blocks/variables/change",
+              "prevName": "assign",
+              "prevPath": "/blocks/variables/assign",
+              "nextName": "var",
+              "nextPath": "/blocks/variables/var"
+            },
+            {
+              "name": "var",
+              "subitems": [],
+              "path": "/blocks/variables/var",
+              "prevName": "change var",
+              "prevPath": "/blocks/variables/change",
+              "nextName": "Math",
+              "nextPath": "/blocks/math"
+            }
+          ],
+          "path": "/blocks/variables",
+          "prevName": "Boolean",
+          "prevPath": "/blocks/logic/boolean",
+          "nextName": "assign",
+          "nextPath": "/blocks/variables/assign"
+        },
+        {
+          "name": "Math",
+          "subitems": [],
+          "path": "/blocks/math",
+          "prevName": "var",
+          "prevPath": "/blocks/variables/var",
+          "nextName": "JavaScript blocks",
+          "nextPath": "/blocks/javascript-blocks"
+        },
+        {
+          "name": "JavaScript blocks",
+          "subitems": [],
+          "path": "/blocks/javascript-blocks",
+          "prevName": "Math",
+          "prevPath": "/blocks/math",
+          "nextName": "Custom blocks",
+          "nextPath": "/blocks/custom"
+        },
+        {
+          "name": "Custom blocks",
+          "subitems": [],
+          "path": "/blocks/custom",
+          "prevName": "JavaScript blocks",
+          "prevPath": "/blocks/javascript-blocks",
+          "nextName": "JavaScript",
+          "nextPath": "/javascript"
+        }
+      ],
+      "path": "/blocks",
+      "prevName": "Packages",
+      "prevPath": "/packages",
+      "nextName": "On Start",
+      "nextPath": "/blocks/on-start"
+    },
+    {
+      "name": "JavaScript",
+      "subitems": [
+        {
+          "name": "Calling",
+          "subitems": [],
+          "path": "/javascript/call",
+          "prevName": "JavaScript",
+          "prevPath": "/javascript",
+          "nextName": "Sequencing",
+          "nextPath": "/javascript/sequence"
+        },
+        {
+          "name": "Sequencing",
+          "subitems": [],
+          "path": "/javascript/sequence",
+          "prevName": "Calling",
+          "prevPath": "/javascript/call",
+          "nextName": "Variables",
+          "nextPath": "/javascript/variables"
+        },
+        {
+          "name": "Variables",
+          "subitems": [],
+          "path": "/javascript/variables",
+          "prevName": "Sequencing",
+          "prevPath": "/javascript/sequence",
+          "nextName": "Operators",
+          "nextPath": "/javascript/operators"
+        },
+        {
+          "name": "Operators",
+          "subitems": [],
+          "path": "/javascript/operators",
+          "prevName": "Variables",
+          "prevPath": "/javascript/variables",
+          "nextName": "Statements",
+          "nextPath": "/javascript/statements"
+        },
+        {
+          "name": "Statements",
+          "subitems": [],
+          "path": "/javascript/statements",
+          "prevName": "Operators",
+          "prevPath": "/javascript/operators",
+          "nextName": "Functions",
+          "nextPath": "/javascript/functions"
+        },
+        {
+          "name": "Functions",
+          "subitems": [],
+          "path": "/javascript/functions",
+          "prevName": "Statements",
+          "prevPath": "/javascript/statements",
+          "nextName": "Types",
+          "nextPath": "/javascript/types"
+        },
+        {
+          "name": "Types",
+          "subitems": [],
+          "path": "/javascript/types",
+          "prevName": "Functions",
+          "prevPath": "/javascript/functions",
+          "nextName": "Classes",
+          "nextPath": "/javascript/classes"
+        },
+        {
+          "name": "Classes",
+          "subitems": [],
+          "path": "/javascript/classes",
+          "prevName": "Types",
+          "prevPath": "/javascript/types",
+          "nextName": "Interfaces",
+          "nextPath": "/javascript/interfaces"
+        },
+        {
+          "name": "Interfaces",
+          "subitems": [],
+          "path": "/javascript/interfaces",
+          "prevName": "Classes",
+          "prevPath": "/javascript/classes",
+          "nextName": "Generics",
+          "nextPath": "/javascript/generics"
+        },
+        {
+          "name": "Generics",
+          "subitems": [],
+          "path": "/javascript/generics",
+          "prevName": "Interfaces",
+          "prevPath": "/javascript/interfaces",
+          "nextName": "Types",
+          "nextPath": "/types"
+        }
+      ],
+      "path": "/javascript",
+      "prevName": "Custom blocks",
+      "prevPath": "/blocks/custom",
+      "nextName": "Calling",
+      "nextPath": "/javascript/call"
+    },
+    {
+      "name": "Types",
+      "subitems": [
+        {
+          "name": "Number",
+          "subitems": [],
+          "path": "/types/number",
+          "prevName": "Types",
+          "prevPath": "/types",
+          "nextName": "String",
+          "nextPath": "/types/string"
+        },
+        {
+          "name": "String",
+          "subitems": [],
+          "path": "/types/string",
+          "prevName": "Number",
+          "prevPath": "/types/number",
+          "nextName": "Boolean",
+          "nextPath": "/types/boolean"
+        },
+        {
+          "name": "Boolean",
+          "subitems": [],
+          "path": "/types/boolean",
+          "prevName": "String",
+          "prevPath": "/types/string",
+          "nextName": "Array",
+          "nextPath": "/types/array"
+        },
+        {
+          "name": "Array",
+          "subitems": [],
+          "path": "/types/array",
+          "prevName": "Boolean",
+          "prevPath": "/types/boolean",
+          "nextName": "Function",
+          "nextPath": "/types/function"
+        },
+        {
+          "name": "Function",
+          "subitems": [],
+          "path": "/types/function",
+          "prevName": "Array",
+          "prevPath": "/types/array",
+          "nextName": "Buffer",
+          "nextPath": "/types/buffer"
+        },
+        {
+          "name": "Buffer",
+          "subitems": [
+            {
+              "name": "Using buffers",
+              "subitems": [],
+              "path": "/types/buffer/using-buffers",
+              "prevName": "Buffer",
+              "prevPath": "/types/buffer",
+              "nextName": "Number format",
+              "nextPath": "/types/buffer/number-format"
+            },
+            {
+              "name": "Number format",
+              "subitems": [],
+              "path": "/types/buffer/number-format",
+              "prevName": "Using buffers",
+              "prevPath": "/types/buffer/using-buffers",
+              "nextName": "Hardware",
+              "nextPath": "/device"
+            }
+          ],
+          "path": "/types/buffer",
+          "prevName": "Function",
+          "prevPath": "/types/function",
+          "nextName": "Using buffers",
+          "nextPath": "/types/buffer/using-buffers"
+        }
+      ],
+      "path": "/types",
+      "prevName": "Generics",
+      "prevPath": "/javascript/generics",
+      "nextName": "Number",
+      "nextPath": "/types/number"
+    },
+    {
+      "name": "Hardware",
+      "subitems": [
+        {
+          "name": "Data Analysis",
+          "subitems": [
+            {
+              "name": "Plotting with LEDs",
+              "subitems": [],
+              "path": "/device/data-analysis/led-plotting",
+              "prevName": "Data Analysis",
+              "prevPath": "/device/data-analysis",
+              "nextName": "Viewing Data",
+              "nextPath": "/device/data-analysis/viewing"
+            },
+            {
+              "name": "Viewing Data",
+              "subitems": [],
+              "path": "/device/data-analysis/viewing",
+              "prevName": "Plotting with LEDs",
+              "prevPath": "/device/data-analysis/led-plotting",
+              "nextName": "Writing Data",
+              "nextPath": "/device/data-analysis/writing"
+            },
+            {
+              "name": "Writing Data",
+              "subitems": [],
+              "path": "/device/data-analysis/writing",
+              "prevName": "Viewing Data",
+              "prevPath": "/device/data-analysis/viewing",
+              "nextName": "Generating Data",
+              "nextPath": "/device/data-analysis/generating"
+            },
+            {
+              "name": "Generating Data",
+              "subitems": [],
+              "path": "/device/data-analysis/generating",
+              "prevName": "Writing Data",
+              "prevPath": "/device/data-analysis/writing",
+              "nextName": "Analyzing Data",
+              "nextPath": "/device/data-analysis/analyze"
+            },
+            {
+              "name": "Analyzing Data",
+              "subitems": [],
+              "path": "/device/data-analysis/analyze",
+              "prevName": "Generating Data",
+              "prevPath": "/device/data-analysis/generating",
+              "nextName": "Remote Data",
+              "nextPath": "/device/data-analysis/remote"
+            },
+            {
+              "name": "Remote Data",
+              "subitems": [],
+              "path": "/device/data-analysis/remote",
+              "prevName": "Analyzing Data",
+              "prevPath": "/device/data-analysis/analyze",
+              "nextName": "Error codes",
+              "nextPath": "/device/error-codes"
+            }
+          ],
+          "path": "/device/data-analysis",
+          "prevName": "Hardware",
+          "prevPath": "/device",
+          "nextName": "Plotting with LEDs",
+          "nextPath": "/device/data-analysis/led-plotting"
+        },
+        {
+          "name": "Error codes",
+          "subitems": [],
+          "path": "/device/error-codes",
+          "prevName": "Remote Data",
+          "prevPath": "/device/data-analysis/remote",
+          "nextName": "Foil circuits",
+          "nextPath": "/device/foil-circuits"
+        },
+        {
+          "name": "Foil circuits",
+          "subitems": [],
+          "path": "/device/foil-circuits",
+          "prevName": "Error codes",
+          "prevPath": "/device/error-codes",
+          "nextName": "MES events",
+          "nextPath": "/device/mes-events"
+        },
+        {
+          "name": "MES events",
+          "subitems": [],
+          "path": "/device/mes-events",
+          "prevName": "Foil circuits",
+          "prevPath": "/device/foil-circuits",
+          "nextName": "Pins",
+          "nextPath": "/device/pins"
+        },
+        {
+          "name": "Pins",
+          "subitems": [],
+          "path": "/device/pins",
+          "prevName": "MES events",
+          "prevPath": "/device/mes-events",
+          "nextName": "Reactive",
+          "nextPath": "/device/reactive"
+        },
+        {
+          "name": "Reactive",
+          "subitems": [],
+          "path": "/device/reactive",
+          "prevName": "Pins",
+          "prevPath": "/device/pins",
+          "nextName": "Screen",
+          "nextPath": "/device/screen"
+        },
+        {
+          "name": "Screen",
+          "subitems": [],
+          "path": "/device/screen",
+          "prevName": "Reactive",
+          "prevPath": "/device/reactive",
+          "nextName": "Serial",
+          "nextPath": "/device/serial"
+        },
+        {
+          "name": "Serial",
+          "subitems": [],
+          "path": "/device/serial",
+          "prevName": "Screen",
+          "prevPath": "/device/screen",
+          "nextName": "Servo",
+          "nextPath": "/device/servo"
+        },
+        {
+          "name": "Servo",
+          "subitems": [],
+          "path": "/device/servo",
+          "prevName": "Serial",
+          "prevPath": "/device/serial",
+          "nextName": "Simulator",
+          "nextPath": "/device/simulator"
+        },
+        {
+          "name": "Simulator",
+          "subitems": [],
+          "path": "/device/simulator",
+          "prevName": "Servo",
+          "prevPath": "/device/servo",
+          "nextName": "Usb",
+          "nextPath": "/device/usb"
+        },
+        {
+          "name": "Usb",
+          "subitems": [],
+          "path": "/device/usb",
+          "prevName": "Simulator",
+          "prevPath": "/device/simulator",
+          "nextName": "Flashing via HID (CMSIS-DAP)",
+          "nextPath": "/hidflash"
+        },
+        {
+          "name": "Flashing via HID (CMSIS-DAP)",
+          "subitems": [],
+          "path": "/hidflash",
+          "prevName": "Usb",
+          "prevPath": "/device/usb",
+          "nextName": "About",
+          "nextPath": "/about"
+        }
+      ],
+      "path": "/device",
+      "prevName": "Number format",
+      "prevPath": "/types/buffer/number-format",
+      "nextName": "Data Analysis",
+      "nextPath": "/device/data-analysis"
+    },
+    {
+      "name": "",
+      "subitems": [
+        {
+          "name": "About",
+          "subitems": [],
+          "path": "/about",
+          "prevName": "Flashing via HID (CMSIS-DAP)",
+          "prevPath": "/hidflash",
+          "nextName": "Support",
+          "nextPath": "/support"
+        },
+        {
+          "name": "Support",
+          "subitems": [],
+          "path": "/support",
+          "prevName": "About",
+          "prevPath": "/about",
+          "nextName": "Translate",
+          "nextPath": "/translate"
+        },
+        {
+          "name": "Translate",
+          "subitems": [],
+          "path": "/translate",
+          "prevName": "Support",
+          "prevPath": "/support",
+          "nextName": "Sharing projects",
+          "nextPath": "/share"
+        },
+        {
+          "name": "Sharing projects",
+          "subitems": [],
+          "path": "/share",
+          "prevName": "Translate",
+          "prevPath": "/translate",
+          "nextName": "Offline support",
+          "nextPath": "/offline"
+        },
+        {
+          "name": "Offline support",
+          "subitems": [],
+          "path": "/offline",
+          "prevName": "Sharing projects",
+          "prevPath": "/share",
+          "nextName": "Save",
+          "nextPath": "/save"
+        },
+        {
+          "name": "Save",
+          "subitems": [],
+          "path": "/save",
+          "prevName": "Offline support",
+          "prevPath": "/offline",
+          "nextName": "Command Line Interface",
+          "nextPath": "/cli"
+        }
+      ],
+      "prevName": "Flashing via HID (CMSIS-DAP)",
+      "prevPath": "/hidflash"
+    },
+    {
+      "name": "",
+      "subitems": [
+        {
+          "name": "Command Line Interface",
+          "subitems": [],
+          "path": "/cli",
+          "prevName": "Save",
+          "prevPath": "/save",
+          "nextName": "Visual Studio Code support",
+          "nextPath": "/code"
+        },
+        {
+          "name": "Visual Studio Code support",
+          "subitems": [],
+          "path": "/code",
+          "prevName": "Command Line Interface",
+          "prevPath": "/cli",
+          "nextName": "Blocks Embed",
+          "nextPath": "/blocks-embed"
+        },
+        {
+          "name": "Blocks Embed",
+          "subitems": [],
+          "path": "/blocks-embed",
+          "prevName": "Visual Studio Code support",
+          "prevPath": "/code"
+        }
+      ],
+      "prevName": "Save",
+      "prevPath": "/save"
+    }
+  ],
+  "id": "microbit",
+  "title": "Microsoft MakeCode for micro:bit",
+  "name": "makecode.microbit.org",
+  "description": "A Blocks / JavaScript code editor for the micro:bit powered by Microsoft MakeCode.",
+  "htmlDocIncludes": {}
+}

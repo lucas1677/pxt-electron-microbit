@@ -1,0 +1,68 @@
+{
+    "packages": {
+        "approvedOrgs": [
+            "Microsoft",
+            "microbit-foundation",
+            "KitronikLtd",
+            "tinkertanker",
+            "Seeed-Studio"
+        ],
+        "approvedRepos": [
+            "CoderDojoOlney/pxt-olney",
+            "PaulDFoster/pxt-microbit-GY521",
+            "chevyng/pxt-ucl-junkrobot",
+            "srs/pxt-bitbot",
+            "sparkfun/pxt-gamer-bit",
+            "sparkfun/pxt-moto-bit",
+            "sparkfun/pxt-weather-bit",
+            "minodekit/pxt-minode",
+            "LaboratoryForPlayfulComputation/pxt-BlockyTalkyBLE",
+            "mbitfun/pxt-katakana",
+            "jdarling/pxt-pca9685",
+            "MUSELAB/pxt-wifi-shield",
+            "kittenbot/pxt-robotbit",
+            "pizayanz/pxt-linebeacon",
+            "sunfounder/pxt-sloth",
+            "4tronix/BitBot",
+            "pimoroni/pxt-scrollbit",
+            "emwta/pxt-iBit",
+            "vengit/pxt-sbrick",
+            "Annikken/pxt-Andee"
+
+        ],
+        "preferredRepos": [
+            "Microsoft/pxt-neopixel"
+        ]
+    },
+    "languages": [
+        "en",
+        "ar",
+        "cs",
+        "da",
+        "de",
+        "el",
+        "es-ES",
+        "fi",
+        "fr",
+        "hu",
+        "it",
+        "ja",
+        "ko",
+        "nl",
+        "no",
+        "pt-BR",
+        "pt-PT",
+        "ru",
+        "si-LK",
+        "sv-SE",
+        "tr",
+        "uk",
+        "zh-CN",
+        "zh-TW"
+    ],
+    "galleries": {
+        "Tutorials": "tutorials",
+        "Projects": "projects",
+        "Examples": "examples"
+    }
+}

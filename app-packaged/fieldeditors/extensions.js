@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});var field_gestures_1=require("./field_gestures");pxt.editor.initFieldExtensionsAsync=function(e){pxt.debug("loading pxt-microbit field editors...");var r={fieldEditors:[{selector:"gestures",editor:field_gestures_1.FieldGestures}]};return Promise.resolve(r)};
