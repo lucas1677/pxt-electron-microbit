@@ -1,12 +1,11 @@
 const {app, BrowserWindow, Menu, dialog} = require("electron");
 const path = require("path");
-const http = require("http");
+import * as HS from "http-server";
 
 let mainWindow: any;
 
-const appRootPath = 'app-packaged';
+const appRootPath = 'public';
 
-http.createServer();
 
 mainWindow = new BrowserWindow({
   title: "Magibit micro:bit",
@@ -14,6 +13,10 @@ mainWindow = new BrowserWindow({
   webPreferences: {
     nodeIntegrationInWorker: true
   }
+});
+
+HS.createServer({
+  root: path.join(__dirname, appRootPath),
 });
 
 mainWindow.loadURL(path.join("file://", appRootPath, `index.html`));

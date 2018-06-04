@@ -19,6 +19,7 @@
     "http-server": "^0.11.1"
   },
   "devDependencies": {
+    "@types/http-server": "^0.10.0",
     "electron": "*",
     "electron-builder": "*"
   },
