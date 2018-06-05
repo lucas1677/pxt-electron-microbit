@@ -4,6 +4,6 @@
         "noImplicitAny": true,
         "outDir": ".",
         "rootDir": "."
-    }
+    },
     "exclude": ["public"]
 }

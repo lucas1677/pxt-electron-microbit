@@ -1,51 +1,35 @@
-var _a = require("electron"), app = _a.app, BrowserWindow = _a.BrowserWindow, Menu = _a.Menu, dialog = _a.dialog;
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 var path = require("path");
+var _a = require("electron"), app = _a.app, BrowserWindow = _a.BrowserWindow;
 var mainWindow;
-var isWindows = process.platform === "win32";
-function printCurrentTime(msg) {
-    console.log((new Date()).toJSON().slice(0, 24).replace(/[-T]/g, ":"), msg);
-}
-app.on("ready", function () {
-    printCurrentTime("start create window");
+var appRootPath = 'public';
+var listenPort = 61677;
+var http = require('http');
+var finalhandler = require('finalhandler');
+var serveStatic = require('serve-static');
+var serve = serveStatic(path.join(__dirname, appRootPath));
+var server = http.createServer(function (req, res) {
+    var done = finalhandler(req, res);
+    serve(req, res, done);
+});
+server.listen(listenPort);
+app.on('ready', function () {
     mainWindow = new BrowserWindow({
-        title: "Magibit micro:bit",
-        show: false,
+        title: "Magibit",
+        show: true,
         webPreferences: {
             nodeIntegrationInWorker: true
         }
     });
-    mainWindow.loadURL(path.join("file://", __dirname, "index.html"));
+    // if you need dev tools do as follow ⤵️
+    // mainWindow.webContents.openDevTools();
+    mainWindow.loadURL("http://127.0.0.1:" + listenPort + "/index.html");
     mainWindow.on("ready-to-show", function () {
         mainWindow.show();
     });
     mainWindow.on("closed", function () {
         mainWindow = null;
+        app.exit(0);
     });
-    var menu = Menu.buildFromTemplate([
-        {
-            label: isWindows ? "File" : app.getName(),
-            submenu: [
-                {
-                    label: isWindows ? "Exit" : "Quit " + app.getName(),
-                    accelerator: isWindows ? null : "CmdOrCtrl+Q",
-                    click: function () {
-                        app.quit();
-                    }
-                },
-                {
-                    label: "Say Hello",
-                    click: function () {
-                        dialog.showMessageBox(mainWindow, {
-                            type: "info",
-                            message: "Hello",
-                            detail: "Just a friendly meow.",
-                            buttons: ["Meow", "Close"],
-                            defaultId: 0
-                        });
-                    }
-                }
-            ]
-        },
-    ]);
-    Menu.setApplicationMenu(menu);
 });

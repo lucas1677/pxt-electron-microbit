@@ -1,11 +1,11 @@
 appId: com.magibit.makecode.microbit
 copyright: Magibit co
-productName: Magibit Makecode
+productName: Magibit
 
-asar: false
+asar: true
 
-asarUnpack:
-  - node_modules/
+#asarUnpack:
+#  - node_modules/
 
 directories:
   buildResources: dist-assets/
@@ -13,8 +13,8 @@ directories:
 
 files:
   - package.json
+  - public
   - main.js
-  - index.html
   - node_modules/
 
 dmg:

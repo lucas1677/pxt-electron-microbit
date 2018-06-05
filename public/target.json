@@ -2,7 +2,7 @@
   "id": "microbit",
   "nickname": "microbit",
   "name": "makecode.microbit.org",
-  "title": "Microsoft MakeCode for micro:bit",
+  "title": "Magibit",
   "description": "A Blocks / JavaScript code editor for the micro:bit powered by Microsoft MakeCode.",
   "corepkg": "core",
   "bundleddirs": [
@@ -3744,7 +3744,7 @@
       }
     ],
     "id": "microbit",
-    "title": "Microsoft MakeCode for micro:bit",
+    "title": "Magibit",
     "name": "makecode.microbit.org",
     "description": "A Blocks / JavaScript code editor for the micro:bit powered by Microsoft MakeCode.",
     "htmlDocIncludes": {}

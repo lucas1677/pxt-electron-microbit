@@ -1,29 +1,46 @@
-const {app, BrowserWindow, Menu, dialog} = require("electron");
-const path = require("path");
-import * as HS from "http-server";
+import * as path from "path";
+
+const {app, BrowserWindow} = require("electron");
 
 let mainWindow: any;
 
 const appRootPath = 'public';
+const listenPort = 61677;
 
+let http = require('http');
 
-mainWindow = new BrowserWindow({
-  title: "Magibit micro:bit",
-  show: false,
-  webPreferences: {
-    nodeIntegrationInWorker: true
-  }
+let finalhandler = require('finalhandler');
+let serveStatic = require('serve-static');
+
+let serve = serveStatic(path.join(__dirname, appRootPath));
+
+let server = http.createServer(function (req: any, res: any) {
+  let done = finalhandler(req, res);
+  serve(req, res, done);
 });
 
-HS.createServer({
-  root: path.join(__dirname, appRootPath),
-});
+server.listen(listenPort);
 
-mainWindow.loadURL(path.join("file://", appRootPath, `index.html`));
-mainWindow.on("ready-to-show", () => {
-  mainWindow.show();
-});
+app.on('ready', () => {
+  mainWindow = new BrowserWindow({
+    title: "Magibit",
+    show: true,
+    webPreferences: {
+      nodeIntegrationInWorker: true
+    }
+  });
 
-mainWindow.on("closed", () => {
-  mainWindow = null;
+  // if you need dev tools do as follow ⤵️
+  // mainWindow.webContents.openDevTools();
+
+  mainWindow.loadURL(`http://127.0.0.1:${listenPort}/index.html`);
+
+  mainWindow.on("ready-to-show", () => {
+    mainWindow.show();
+  });
+
+  mainWindow.on("closed", () => {
+    mainWindow = null;
+    app.exit(0);
+  });
 });
